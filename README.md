@@ -1,9 +1,20 @@
 # Rust-Server-Website-Template
 PHP Template for Rust server or servers
 
-**Rust-Server-Website-Template** is a basic PHP/CSS template for Rust server or servers website. 
+**Rust-Server-Website-Template** is a basic PHP/CSS template for Rust server or servers website. It is build with Bootstrap 4 and Rust-Servers.Info API.
 
-**Rust-Server-Website-Template** is build with Bootstrap 4 and Rust-Servers.Info API.
+## Features
+
+* Responsive Design
+* **Servers Module** (Rust-Servers.Info API)
+  * Server Header Image (Dynamic)
+  * Number of players Curr/Max with progress bar (Dynamic)
+  * Online/Offline Indicator (Dynamic)
+  * Connect and Vote buttons
+* **Steam Group Module** (Steam Community Data)
+  * Total Users (Dynamic)
+  * Online Users (Dynamic)
+  * In-Game Users (Dynamic)
 
 See a demo at https://rust-servers.info/demo/
 
@@ -11,7 +22,7 @@ See a demo at https://rust-servers.info/demo/
 
 Please note the main repository is constantly being updated so may contain bugs and other bleeding edge risks. For a stable download please visit the releases page: https://github.com/Mo45/Rust-Server-Website-Template/releases
 
-## Install
+## Installation
 
 Upload files to your server.
 
