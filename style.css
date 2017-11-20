@@ -1,0 +1,131 @@
+body {
+    background-color: #06000a;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    color:#e6e6e8;
+}
+nav.navbar.bg-dark {
+    background-color:#c43235!important;
+}
+.face {
+    margin-bottom: -100px;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.face-body {
+    align-items: center;
+    display: flex;
+    background: linear-gradient(rgba(6, 0, 10, 0.5), rgba(6, 0, 10, 0.75), #06000a);
+    z-index: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
+}
+.face.face-body > .container {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.face-title.one {
+    font-size: 3rem;
+}
+.face.face-subtitle {
+    color: #c5bbb4;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.section {
+    padding: 3rem 1.5rem;
+    display: block;
+}
+.servers {
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
+.section > h1 {
+    color:#c43235;
+    margin-bottom: 1em;
+}
+div.one-server > h2 {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
+img.server-header {
+    outline: 1px solid rgba(48,0,50,.1);
+}
+div.Online {
+    border-bottom: 3px solid #738D45;
+}
+div.Offline {
+    border-bottom: 3px solid #CD412B;
+}
+div.Offline > img.server-header {
+    opacity:.3;
+}
+.progress {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.players-bar {
+    background-color:#738D45;
+}
+div.one-server > p {
+    border-bottom: 1px solid rgba(230,230,232,.1);
+    padding-bottom: 5px;
+    color: #948c87;
+}
+div.members {
+    font-size:3rem;
+    border-bottom: 1px solid rgba(230,230,232,.1);
+    padding-bottom: 3rem;
+}
+div.members > span {
+    font-size:1rem;
+    display: block;
+}
+div.members#online {
+    color: #62a7e3;
+}
+div.members#ingame {
+    color: #8bc53f;
+}
+section.community > div.row {
+    margin-bottom: 3rem;
+}
+section.community {
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
+div.store {
+    padding-top:6rem;
+}
+div.store > h3 {
+    color: #948c87;
+}
+section.store {
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
+section.footer {
+    padding-top: 2rem;
+    padding-bottom:3rem;
+    background-color:rgba(48,0,50,1);
+}
+section.footer > div.container > span > a {
+    color: #e6e6e8;
+    text-decoration:underline;
+}
