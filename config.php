@@ -47,12 +47,12 @@
 	define( "MODULE_RULES" , "ON" );
 	# Rules module, ON/OFF - Add or edit rules by edit this file --> /template/rules.php <--
 
+	define( "MODULE_SOCIAL" , "ON" );
+        # Social module, ON/OFF
+
 //======================================================================
 // Social Links
 //======================================================================
-
-	define( "SRV_DISCORD" , "https://discordapp.com/invite/SOMELINK" );
-	# Discord invite link, leave blank to remove from page
 
 	define( "SRV_FACEBOOK" , "https://www.facebook.com/rustserversinfo/" );
 	# Facebook Page link, leave blank to remove from page
