@@ -1,3 +1,5 @@
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Mo45/Rust-Server-Website-Template)
+
 # Rust-Server-Website-Template
 Website Template for Rust server
 
