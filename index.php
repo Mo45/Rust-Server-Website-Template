@@ -15,6 +15,13 @@
 <meta property="og:description" content="<?=SRV_NAME;?> &middot; <?=SRV_SLOGAN;?>">
 <meta property="og:title" content="<?=SRV_NAME;?>">
 
+<!-- Recomended size for image is 800 x 420 px! -->
+<link rel="image_src" href="https://files.facepunch.com/s/ba35193fed0f.png/256x256">
+<meta property="og:image" content="https://files.facepunch.com/s/ba35193fed0f.png/256x256" />
+<meta property="og:image:width" content="256" />
+<meta property="og:image:height" content="256" />
+
+<meta name="twitter:image" content="https://files.facepunch.com/s/ba35193fed0f.png/256x256" />
 <meta name="twitter:site" content="@<?=SRV_TWITTER;?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@Mo_45">
