@@ -9,7 +9,11 @@ See a demo at https://rust-servers.info/demo/
 
 ## Features
 
-* Responsive Design
+* **Responsive Design**
+  * Valid HTML
+  * PageSpeed Score 96%
+  * YSlow Score 93%
+  * Less than 1MB
 * **Servers Module** (Rust-Servers.Info API)
   * Server Header Image (Dynamic)
   * Number of players Curr/Max with progress bar (Dynamic)
