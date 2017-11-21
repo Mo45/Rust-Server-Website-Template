@@ -1,4 +1,6 @@
 <?php
+	define( "VERSION","1.0" );
+
 // Edit this ->
 
 	//YOUR WEBSITE URL

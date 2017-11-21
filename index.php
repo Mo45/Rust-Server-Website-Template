@@ -6,11 +6,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css?<?php echo rand();?>">
+<link rel="stylesheet" href="css/style.css?<?=VERSION?>">
 </head>
 <body>
 <?php include_once("template/navbar.php");?>
 <?php include_once("template/top.php");?>
+
 <div class="container">
 <?php if(MODULE_SERVERS == "ON"){include_once("modules/servers.php");};?>
 <?php if(MODULE_COMMUNITY == "ON"){include_once("modules/community.php");};?>
