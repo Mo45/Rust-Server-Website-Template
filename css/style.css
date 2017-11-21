@@ -9,6 +9,7 @@ body {
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
     color:#e6e6e8;
+    font: normal 1em 'Roboto Slab', sans-serif;
 }
 nav.navbar.bg-dark {
     background-color:#c43235!important;
@@ -39,6 +40,9 @@ nav.navbar.bg-dark {
 }
 .face-title.one {
     font-size: 3rem;
+}
+.face-subtitle {
+    font-size: 1rem;
 }
 .face.face-subtitle {
     color: #c5bbb4;
@@ -87,7 +91,7 @@ div.Offline > img.server-header {
 }
 div.one-server > p {
     border-bottom: 1px solid rgba(230,230,232,.1);
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     color: #948c87;
 }
 div.members {
@@ -128,4 +132,10 @@ section.footer {
 section.footer > div.container > span > a {
     color: #e6e6e8;
     text-decoration:underline;
+}
+section.footer > div.container > span > a:hover {
+    text-decoration:none;
+}
+.srv {
+    margin-bottom: 20px;
 }

@@ -1,34 +1,85 @@
 <?php
+/*
+* This is a config file for Rust-Server-Website-Template
+* Created by Kirill Krasin (https://krasin.in.ua)
+* Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
+*/
+
 	define( "VERSION","1.0" );
+	define( "CSS_VER","211117" );
 
-// Edit this ->
+//======================================================================
+// Global Site Config
+//======================================================================
 
-	//YOUR WEBSITE URL
-	define( "SITE_URL" , "https://rust-servers.info/demo/");
+	define( "SITE_URL" , "https://rust-servers.info/demo/" );
+	# Your website URL
 
-	//MODULES
-	define( "MODULE_SERVERS" , "ON");//STEAM GROUP MODULE, ON/OFF
-
-	define( "MODULE_COMMUNITY" , "ON");//STEAM GROUP MODULE, ON/OFF
-	//YOUR STEAM GROUP ID64 ( https://support.multiplay.co.uk/support/solutions/articles/1000202859-how-can-i-find-my-steam-group-64-id- )
-        define( "STEAM_GID" , "103582791435542737"); //Your Steam Group ID64
-
-	define( "MODULE_STORE" , "ON");//VIP STORE MODULE, ON/OFF
-	define( "STORE_URL" , "https://rust-servers.info/demo/#store");//URL TO YOUR STORE
-
-	define( "MODULE_RULES" , "ON");//RULES MODULE, ON/OFF
-	//ADD OR EDIT RULES BY EDIT FILE --> /template/rules.php <--
-
-	//TITLES
 	define( "SRV_NAME" , "Mega Awesome Servers" );
-	define( "SRV_SLOGAN" , "Mega Awesome Servers Slogan" );
+        # Server or project name, will be used as title
 
-	//YOUR SERVERS, ADD OR REMOVE
-	define( "SRV_ID_1","1");// Your server #1 ID (Rust-Servers.Info)
-	define( "SRV_1_DESC" , "This is short server description. Vanilla, Cool admins, etc." );// Your server #1 description
+        define( "SRV_SLOGAN" , "Mega Awesome Servers Slogan" );
+        # Server or project slogan, will be used as slogan and description
 
-	define( "SRV_ID_2","2");// Your server #2 ID (Rust-Servers.Info)
-	define( "SRV_2_DESC" , "This is short server description. Vanilla, Cool admins, etc." );// Your server #2 description
+        define( "SRV_TWITTER" , "rustserversinfo" );
+        # Your server twitter username without @ (will be used in twitter meta tags and social links)
 
-// <- Edit this
+//======================================================================
+// Modules Config | By default all modules is enabled
+//======================================================================
+
+	define( "MODULE_SERVERS" , "ON" );
+	# Server status module, ON/OFF
+
+	define( "MODULE_COMMUNITY" , "ON" );
+	# Steam Group module, ON/OFF
+
+	/* How to find Steam Group ID 64 - https://support.multiplay.co.uk/support/solutions/articles/1000202859 */
+        define( "STEAM_GID" , "103582791435542737" );
+	# Your Steam Group ID64
+
+	define( "MODULE_STORE" , "ON" );
+	# External store module, ON/OFF
+
+	define( "STORE_URL" , "https://rust-servers.info/demo/#store" );
+	# URL to your store
+
+	define( "MODULE_RULES" , "ON" );
+	# Rules module, ON/OFF - Add or edit rules by edit this file --> /template/rules.php <--
+
+//======================================================================
+// Social Links
+//======================================================================
+
+	define( "SRV_DISCORD" , "https://discordapp.com/invite/SOMELINK" );
+	# Discord invite link, leave blank to remove from page
+
+	define( "SRV_FACEBOOK" , "https://www.facebook.com/rustserversinfo/" );
+	# Facebook Page link, leave blank to remove from page
+
+	define( "SRV_VK" , "https://vk.com/" );
+	# VK.com Page Link, leave blank to remove from page
+
+//======================================================================
+// Server Status Module Config
+//======================================================================
+
+//-----------------------------------------------------
+// Server #1
+//-----------------------------------------------------
+
+	define( "SRV_ID_1","1" );
+	# Your server #1 ID (Rust-Servers.Info)
+	define( "SRV_1_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
+	# Your server #1 description
+
+//-----------------------------------------------------
+// Server #2
+//-----------------------------------------------------
+
+	define( "SRV_ID_2","2" );
+	# Your server #2 ID (Rust-Servers.Info)
+	define( "SRV_2_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
+	# Your server #2 description
+
 ?>

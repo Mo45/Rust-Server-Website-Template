@@ -6,7 +6,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css?<?=VERSION?>">
+<link rel="stylesheet" href="css/style.css?<?=CSS_VER;?>">
+<meta name="theme-color" content="#c43235">
+<meta name="description" content="<?=SRV_NAME;?> &middot; <?=SRV_SLOGAN;?>">
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="<?=SRV_NAME;?>">
+<meta property="og:url" content="<?=SITE_URL;?>" />
+<meta property="og:description" content="<?=SRV_NAME;?> &middot; <?=SRV_SLOGAN;?>">
+<meta property="og:title" content="<?=SRV_NAME;?>">
+
+<meta name="twitter:site" content="@<?=SRV_TWITTER;?>">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@Mo_45">
+
+<link rel="icon" href="https://files.facepunch.com/s/ba35193fed0f.png/32x32">
+<link rel="shortcut icon" href="https://files.facepunch.com/s/ba35193fed0f.png/32x32">
+<link rel="apple-touch-icon-precomposed" href="https://files.facepunch.com/s/ba35193fed0f.png/256x256">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/8f466ad9bd.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 </head>
 <body>
 <?php include_once("template/navbar.php");?>

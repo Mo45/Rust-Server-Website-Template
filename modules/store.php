@@ -8,7 +8,7 @@
 <h2>Buy VIP packages</h2>
 <h3>And support us!</h3>
 <p>Love our servers? You can help us by giving back to support developement. Buy our VIP packages!</p>
-<a href="<?=STORE_URL;?>" class="btn btn-outline-light btn-lg">Visit our Store</a>
+<a href="<?=STORE_URL;?>" class="btn btn-outline-light btn-lg"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Visit our Store</a>
 </div>
 </div>
 </section>
