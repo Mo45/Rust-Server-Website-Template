@@ -124,6 +124,9 @@ div.store > h3 {
 section.store {
     border-bottom: 1px solid rgba(230,230,232,.1);
 }
+section.rules {
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
 section.footer {
     padding-top: 2rem;
     padding-bottom:3rem;
