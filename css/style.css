@@ -1,4 +1,5 @@
 body {
+    position: relative;
     background-color: #06000a;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
