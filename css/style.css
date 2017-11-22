@@ -112,19 +112,13 @@ div.members#ingame {
 section.community > div.row {
     margin-bottom: 3rem;
 }
-section.community {
-    border-bottom: 1px solid rgba(230,230,232,.1);
-}
 div.store {
     padding-top:6rem;
 }
 div.store > h3 {
     color: #948c87;
 }
-section.store {
-    border-bottom: 1px solid rgba(230,230,232,.1);
-}
-section.rules {
+section.rules,section.store,section.staff,section.community {
     border-bottom: 1px solid rgba(230,230,232,.1);
 }
 section.footer {
@@ -141,4 +135,17 @@ section.footer > div.container > span > a:hover {
 }
 .srv {
     margin-bottom: 20px;
+}
+img.rounded-circle.staff {
+    max-width:150px;
+    border: 2px solid rgba(196,50,53,1);
+}
+p.staff-name {
+    padding-top:1rem;
+    font-size:1.2rem;
+}
+p.staff-role {
+    margin-top:-1rem;
+    font-size:.8rem;
+    color:#c43235;
 }
