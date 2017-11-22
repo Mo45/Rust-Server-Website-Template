@@ -27,6 +27,11 @@
         <a class="nav-link" href="#rules">Rules</a>
       </li>
 <?php };?>
+<?php if(MODULE_STAFF == "ON"){ ;?>
+      <li class="nav-item">
+        <a class="nav-link" href="#staff">Staff</a>
+      </li>
+<?php };?>
     </ul>
   </div>
 </div>
