@@ -4,9 +4,9 @@
 * Created by Kirill Krasin (https://krasin.in.ua)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","1.0.1" );
+	define( "VERSION","1.0.2" );
 	define( "CSS_VER","221117" );
-	define( "DEV_MODE","ON" );
+	define( "DEV_MODE","OFF" );
 
 //======================================================================
 // Global Site Config
