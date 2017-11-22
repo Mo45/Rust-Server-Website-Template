@@ -1,0 +1,30 @@
+<section class="section staff text-center" id="staff">
+<h1>Our Staff</h1>
+<div class="row">
+
+<!-- one member -->
+<div class="col-md-4">
+ <img src="img/photo.jpg" class="rounded-circle staff" />
+<p class="staff-name">Kirill Krasin</p>
+<p class="staff-role">Owner</p>
+</div>
+<!-- one member -->
+
+<!-- one member -->
+<div class="col-md-4">
+ <img src="//placehold.it/300" class="rounded-circle staff" />
+<p class="staff-name">John Smith</p>
+<p class="staff-role">Admin</p>
+</div>
+<!-- one member -->
+
+<!-- one member -->
+<div class="col-md-4">
+ <img src="//placehold.it/300" class="rounded-circle staff" />
+<p class="staff-name">Robert Jones</p>
+<p class="staff-role">Moderator</p>
+</div>
+<!-- one member -->
+
+</div><!-- row -->
+</section>
