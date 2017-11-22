@@ -13,7 +13,7 @@
 <div class="progress" style="height:3px;">
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s1_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s1_max; ?>"></div>
 </div>
-<a href="steam://connect/<?php echo $s1_ip; ?>:<?php echo $s1_port; ?>" class="btn btn-outline-success btn-lg<?php echo $s1_disabled; ?>"><i class="fa fa-play-circle" aria-hidden="true"></i> Connect</a>
+<a href="steam://connect/<?php echo $s1_ip; ?>:<?php echo $s1_port; ?>" <?php echo $s1_button; ?>
 <a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_1; ?>.html" class="btn btn-outline-light btn-lg"><i class="fa fa-heart-o" aria-hidden="true"></i> Vote</a>
 </div>
 </div>
@@ -30,7 +30,7 @@
 <div class="progress" style="height:3px;">
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s2_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s2_max; ?>"></div>
 </div>
-<a href="steam://connect/<?php echo $s2_ip; ?>:<?php echo $s2_port; ?>" class="btn btn-outline-success btn-lg<?php echo $s2_disabled; ?>"><i class="fa fa-play-circle" aria-hidden="true"></i> Connect</a>
+<a href="steam://connect/<?php echo $s2_ip; ?>:<?php echo $s2_port; ?>" <?php echo $s2_button; ?>
 <a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_2; ?>.html" class="btn btn-outline-light btn-lg"><i class="fa fa-heart-o" aria-hidden="true"></i> Vote</a>
 </div>
 </div>
