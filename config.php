@@ -5,7 +5,8 @@
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
 	define( "VERSION","1.0.1" );
-	define( "CSS_VER","211117" );
+	define( "CSS_VER","221117" );
+	define( "DEV_MODE","ON" );
 
 //======================================================================
 // Global Site Config
@@ -48,6 +49,9 @@
 
 	define( "MODULE_SOCIAL" , "ON" );
         # Social module, ON/OFF
+
+	define( "MODULE_STAFF" , "ON" );
+	# Staff module, ON/OFF - Add or edit your staff members by edit this file --> /template/staff.php <--
 
 //======================================================================
 // Social Links
