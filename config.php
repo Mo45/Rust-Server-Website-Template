@@ -12,9 +12,6 @@
 // Global Site Config
 //======================================================================
 
-	define( "CACHE_LIFETIME" , "300" );
-	# How often the cache is cleared (in seconds), set to "0" to disable caching
-
 	define( "SITE_URL" , "https://rust-servers.info/demo/" );
 	# Your website URL
 
@@ -26,6 +23,9 @@
 
         define( "SRV_TWITTER" , "rustserversinfo" );
         # Your server twitter username without @ (will be used in twitter meta tags and social links)
+		
+	define( "CACHE_LIFETIME" , "300" );
+	# How often the cache is cleared (in seconds), set to "0" to disable caching
 
 //======================================================================
 // Modules Config | By default all modules is enabled
