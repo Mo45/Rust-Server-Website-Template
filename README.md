@@ -43,5 +43,8 @@ Open up `config.php`
 - change `STORE_URL` to your server store url.
 - change `SRV_ID_1` to your server ID on https://Rust-Servers.Info.
 - change `SRV_1_DESC` to your server short description.
+
+## Personalize your website
+
 - edit `/template/rules.php`
 - edit `/template/staff.php`
