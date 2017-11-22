@@ -12,7 +12,7 @@
 <ul class="text-left">
 <li>We have absolutely zero tolerance for any form of racism or bigotry. You can do whatever you like in your day to day lives, but it will not be tolerated on our servers.</li>
 <li>Don't type it, don't write/draw on a sign, and don't say it in voice chat. Admins spectate constantly and if we see it, you will be banned.</li>
-<li>Very rarely do we warn. By playing on Moose servers you are consenting to our rules and understand the consequences for not following them.</li>
+<li>Very rarely do we warn. By playing on our servers you are consenting to our rules and understand the consequences for not following them.</li>
 </ul>
 <h3>Disrespecting Staff & Players</h3>
 <ul class="text-left">
