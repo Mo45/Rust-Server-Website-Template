@@ -16,24 +16,24 @@
 <meta property="og:title" content="<?php echo SRV_NAME; ?>">
 
 <!-- Recomended size for image is 800 x 420 px! -->
-<link rel="image_src" href="https://files.facepunch.com/s/ba35193fed0f.png/256x256">
-<meta property="og:image" content="https://files.facepunch.com/s/ba35193fed0f.png/256x256" />
+<link rel="image_src" href="img/256x256.png">
+<meta property="og:image" content="img/256x256.png" />
 <meta property="og:image:width" content="256" />
 <meta property="og:image:height" content="256" />
 
-<meta name="twitter:image" content="https://files.facepunch.com/s/ba35193fed0f.png/256x256" />
+<meta name="twitter:image" content="img/256x256.png" />
 <meta name="twitter:site" content="@<?php echo SRV_TWITTER; ?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@Mo_45">
 
-<link rel="icon" href="https://files.facepunch.com/s/ba35193fed0f.png/32x32">
-<link rel="shortcut icon" href="https://files.facepunch.com/s/ba35193fed0f.png/32x32">
-<link rel="apple-touch-icon-precomposed" href="https://files.facepunch.com/s/ba35193fed0f.png/256x256">
+<link rel="icon" href="img/32x32.png">
+<link rel="shortcut icon" href="img/32x32.png">
+<link rel="apple-touch-icon-precomposed" href="img/256x256.png">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/8f466ad9bd.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#scroll">
 <?php include_once("template/navbar.php");?>
 <?php include_once("template/top.php");?>
 
