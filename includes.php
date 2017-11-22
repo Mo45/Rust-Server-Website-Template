@@ -8,11 +8,12 @@
 	$parsed_json = json_decode($json_string,true);
 		$s1_name	= $parsed_json['hostname'];
 		$s1_status	= $parsed_json['online_state'];
-			if($s1_status == "1"){$s1_status = "Online";}else{$s1_status = "Offline";$s1_disabled = " disabled";};
+			if($s1_status == "1"){$s1_status = "Online";$s1_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a> ";}
+                        else{$s1_status = "Offline";$s1_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a> ";};
 		$s1_cur		= $parsed_json['players_cur'];
 		$s1_max		= $parsed_json['players_max'];
 		$s1_img		= $parsed_json['image'];
-		if (getimagesize($s1_img) == false) {$s1_img = "http://files.facepunch.com/garry/2015/August/27/serverlogo.png";};
+		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.png";};
 		$s1_ip		= $parsed_json['ip'];
 		$s1_port	= $parsed_json['port'];
 	//GET JSON STATUS FOR SERVER #2
@@ -21,11 +22,12 @@
         $parsed_json = json_decode($json_string,true);
 		$s2_name        = $parsed_json['hostname'];
                 $s2_status      = $parsed_json['online_state'];
-                        if($s2_status == "1"){$s2_status = "Online";}else{$s2_status = "Offline";$s2_disabled = " disabled";};
+                        if($s2_status == "1"){$s2_status = "Online";$s2_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>";}
+			else{$s2_status = "Offline";$s2_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a> ";};
                 $s2_cur         = $parsed_json['players_cur'];
                 $s2_max         = $parsed_json['players_max'];
                 $s2_img         = $parsed_json['image'];
-		if (getimagesize($s2_img) == false) {$s2_img = "http://files.facepunch.com/garry/2015/August/27/serverlogo.png";};
+		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
                 $s2_ip          = $parsed_json['ip'];
                 $s2_port        = $parsed_json['port'];
 	};
