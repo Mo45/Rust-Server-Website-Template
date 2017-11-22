@@ -2,18 +2,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title><?=SRV_NAME;?></title>
+<title><?php echo SRV_NAME ;?></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css?<?=CSS_VER;?>">
+<link rel="stylesheet" href="css/style.css?<?php echo CSS_VER; ?>">
 <meta name="theme-color" content="#c43235">
-<meta name="description" content="<?=SRV_NAME;?> &middot; <?=SRV_SLOGAN;?>">
+<meta name="description" content="<?php echo SRV_NAME; ?> &middot; <?php echo SRV_SLOGAN; ?>">
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="<?=SRV_NAME;?>">
-<meta property="og:url" content="<?=SITE_URL;?>" />
-<meta property="og:description" content="<?=SRV_NAME;?> &middot; <?=SRV_SLOGAN;?>">
-<meta property="og:title" content="<?=SRV_NAME;?>">
+<meta property="og:site_name" content="<?php echo SRV_NAME; ?>">
+<meta property="og:url" content="<?php echo SITE_URL; ?>" />
+<meta property="og:description" content="<?php echo SRV_NAME; ?> &middot; <?php echo SRV_SLOGAN; ?>">
+<meta property="og:title" content="<?php echo SRV_NAME; ?>">
 
 <!-- Recomended size for image is 800 x 420 px! -->
 <link rel="image_src" href="https://files.facepunch.com/s/ba35193fed0f.png/256x256">
@@ -22,7 +22,7 @@
 <meta property="og:image:height" content="256" />
 
 <meta name="twitter:image" content="https://files.facepunch.com/s/ba35193fed0f.png/256x256" />
-<meta name="twitter:site" content="@<?=SRV_TWITTER;?>">
+<meta name="twitter:site" content="@<?php echo SRV_TWITTER; ?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@Mo_45">
 

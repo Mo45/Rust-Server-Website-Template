@@ -2,17 +2,17 @@
 <h1>Community</h1>
 <div class="row">
 <div class="col-md-4 members" id="total">
-<?=$memberscount;?>
+<?php echo $memberscount; ?>
 <span>MEMBERS</span>
 </div>
 <div class="col-md-4 members" id="online">
-<?=$membersonline;?>
+<?php echo $membersonline; ?>
 <span>ONLINE</span>
 </div>
 <div class="col-md-4 members" id="ingame">
-<?=$membersingame;?>
+<?php echo $membersingame; ?>
 <span>IN-GAME</span>
 </div>
 </div>
-<a href="https://steamcommunity.com/gid/<?=STEAM_GID;?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa fa-steam" aria-hidden="true"></i> Join Our Steam Group</a>
+<a href="https://steamcommunity.com/gid/<?php echo STEAM_GID; ?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa fa-steam" aria-hidden="true"></i> Join Our Steam Group</a>
 </section>
