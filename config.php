@@ -12,6 +12,9 @@
 // Global Site Config
 //======================================================================
 
+	define( "CACHE_LIFETIME" , "0" );
+	# How often the cache is cleared (in seconds), set to "0" to disable caching
+
 	define( "SITE_URL" , "https://rust-servers.info/demo/" );
 	# Your website URL
 
