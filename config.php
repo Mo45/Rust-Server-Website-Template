@@ -4,7 +4,7 @@
 * Created by Kirill Krasin (https://krasin.in.ua)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","1.0.2" );
+	define( "VERSION","1.0.2-beta" );
 	define( "CSS_VER","231117" );
 	define( "DEV_MODE","OFF" );
 
