@@ -6,7 +6,7 @@
 */
 	define( "VERSION","1.0.2" );
 	define( "CSS_VER","221117" );
-	define( "DEV_MODE","OFF" );
+	define( "DEV_MODE","ON" );
 
 //======================================================================
 // Global Site Config
