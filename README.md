@@ -25,6 +25,7 @@ See a demo at https://rust-servers.info/demo/
   * Total Users (Dynamic)
   * Online Users (Dynamic)
   * In-Game Users (Dynamic)
+* **Full page caching** (Thx to [Jonatan](https://github.com/Jontis00))
 
 ## Download
 
@@ -39,6 +40,7 @@ Open up `config.php`
 - change `SRV_NAME` to your server name.
 - change `SRV_SLOGAN` to your server short slogan.
 - change `SRV_TWITTER` to your server Twitter username.
+- change `CACHE_LIFETIME` cache lifetime in seconds, default value - **300**, set to **0** to disable caching.
 - change `STEAM_GID` to your Steam Group ID64 (https://support.multiplay.co.uk/support/solutions/articles/1000202859).
 - change `STORE_URL` to your server store url.
 - change `SRV_ID_1` to your server ID on https://Rust-Servers.Info.
