@@ -5,7 +5,7 @@
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
 	define( "VERSION","1.0.2" );
-	define( "CSS_VER","221117" );
+	define( "CSS_VER","231117" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
