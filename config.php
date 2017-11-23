@@ -6,7 +6,7 @@
 */
 	define( "VERSION","1.0.2" );
 	define( "CSS_VER","221117" );
-	define( "DEV_MODE","OFF" );
+	define( "DEV_MODE","ON" );
 
 //======================================================================
 // Global Site Config
@@ -23,6 +23,9 @@
 
         define( "SRV_TWITTER" , "rustserversinfo" );
         # Your server twitter username without @ (will be used in twitter meta tags and social links)
+
+	define( "CACHE_LIFETIME" , "300" );
+	# How often the cache is cleared (in seconds), set to "0" to disable caching
 
 //======================================================================
 // Modules Config | By default all modules is enabled

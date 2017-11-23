@@ -1,4 +1,7 @@
-<?php include_once("includes.php");?>
+<?php
+  include_once("cache.php");
+  include_once("includes.php");
+?>
 <!doctype html>
 <html lang="en">
 <head>
