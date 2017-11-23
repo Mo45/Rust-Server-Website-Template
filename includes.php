@@ -13,6 +13,7 @@
 		$s1_cur		= $parsed_json['players_cur'];
 		$s1_max		= $parsed_json['players_max'];
 		$s1_img		= $parsed_json['image'];
+		if ($s1_img == "") {$s1_img = "img/serverlogo.png";};//Empty path fix
 		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.png";};
 		$s1_ip		= $parsed_json['ip'];
 		$s1_port	= $parsed_json['port'];
@@ -27,6 +28,7 @@
                 $s2_cur         = $parsed_json['players_cur'];
                 $s2_max         = $parsed_json['players_max'];
                 $s2_img         = $parsed_json['image'];
+		if ($s2_img == "") {$s2_img = "img/serverlogo.png";};//Empty path fix
 		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
                 $s2_ip          = $parsed_json['ip'];
                 $s2_port        = $parsed_json['port'];
