@@ -4,8 +4,8 @@
 * Created by Kirill Krasin (https://krasin.in.ua)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","1.0.2-beta" );
-	define( "CSS_VER","251117" );
+	define( "VERSION","1.0.3" );
+	define( "CSS_VER","020218" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
@@ -74,7 +74,7 @@
 // Server #1
 //-----------------------------------------------------
 
-	define( "SRV_ID_1","1" );
+	define( "SRV_ID_1","3" );
 	# Your server #1 ID (Rust-Servers.Info)
 	define( "SRV_1_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
 	# Your server #1 description
