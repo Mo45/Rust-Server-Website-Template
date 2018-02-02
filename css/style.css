@@ -149,17 +149,22 @@ p.staff-role {
     font-size:.8rem;
     color:#c43235;
 }
-::-webkit-scrollbar-track
-{
-    background-color: rgba(6, 0, 10, 1);
+.fullvideo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
 }
-::-webkit-scrollbar
-{
-    width: 3px;
-    background-color: rgba(6, 0, 10, 1);
+.fullvideo video {
+    position: absolute;
+    height: 100%;
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    object-fit: cover;
 }
-::-webkit-scrollbar-thumb
-{
-    background-color: rgba(196, 50, 53, 1);
+img, embed, object, audio, video {
+    max-width: 100%;
 }
-
