@@ -114,3 +114,10 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 </div>
 <!-- Server #3 END -->
 ```
+## Copyright
+
+:
+
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+> - MIT License
+This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
