@@ -50,3 +50,62 @@ Open up `config.php`
 
 - edit `/template/rules.php`
 - edit `/template/staff.php`
+
+## How to add more than 2 servers
+
+Open `includes.php` and add this code after
+```
+//EXTRA SERVERS START
+```
+If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+```
+	//GET JSON STATUS FOR SERVER #3
+        $json_url = "https://api.rust-servers.info/info/".SRV_ID_3."";
+        $json_string = file_get_contents($json_url);
+        $parsed_json = json_decode($json_string,true);
+		$s3_name        = $parsed_json['hostname'];
+                $s3_status      = $parsed_json['online_state'];
+                        if($s3_status == "1"){$s3_status = "Online";$s3_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>";}
+			else{$s3_status = "Offline";$s3_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a> ";};
+                $s3_cur         = $parsed_json['players_cur'];
+                $s3_max         = $parsed_json['players_max'];
+                $s3_img         = $parsed_json['image'];
+		if ($s3_img == "") {$s3_img = "img/serverlogo.png";};//Empty path fix
+		if (getimagesize($s3_img) == false) {$s3_img = "img/serverlogo.png";};
+                $s3_ip          = $parsed_json['ip'];
+                $s3_port        = $parsed_json['port'];
+```
+Next, open `config.php` and add this code after
+```// Extra servers```
+If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+```
+//-----------------------------------------------------
+// Server #3
+//-----------------------------------------------------
+	define( "SRV_ID_3","5" );
+	# Your server #3 ID (Rust-Servers.Info)
+	define( "SRV_3_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
+	# Your server #3 description
+ ```
+ Next, open `/modules/servers.php` and add this code after
+```<!-- Server #2 END -->```
+If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+```
+<!-- Server #3 START-->
+<div class="col-md-6 srv">
+<div class="one-server">
+<div class="<?php echo $s3_status; ?>">
+<img src="<?php echo $s3_img; ?>" class="server-header img-fluid" alt="<?php echo $s3_name; ?>">
+</div>
+<h2><?php echo $s3_name; ?></h2>
+<p><?php echo SRV_3_DESC; ?></p>
+<span class="players">Players: <?php echo $s3_cur; ?>/<?php echo $s3_max; ?></span>
+<div class="progress" style="height:3px;">
+  <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s3_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s3_max; ?>"></div>
+</div>
+<a href="steam://connect/<?php echo $s3_ip; ?>:<?php echo $s3_port; ?>" <?php echo $s3_button; ?>
+<a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_3; ?>.html" class="btn btn-outline-light btn-lg"><i class="fa fa-heart-o" aria-hidden="true"></i> Vote</a>
+</div>
+</div>
+<!-- Server #3 END -->
+```
