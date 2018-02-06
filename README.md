@@ -76,7 +76,9 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
                 $s3_port        = $parsed_json['port'];
 ```
 Next, open `config.php` and add this code after
+
 ```// Extra servers```
+
 If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
 ```
 //-----------------------------------------------------
@@ -88,8 +90,11 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 	# Your server #3 description
  ```
  Next, open `/modules/servers.php` and add this code after
+ 
 ```<!-- Server #2 END -->```
+
 If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+
 ```
 <!-- Server #3 START-->
 <div class="col-md-6 srv">
