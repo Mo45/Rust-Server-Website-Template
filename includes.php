@@ -32,6 +32,9 @@
 		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
                 $s2_ip          = $parsed_json['ip'];
                 $s2_port        = $parsed_json['port'];
+	//EXTRA SERVERS START
+
+	//EXTRA SERVERS END
 	};
 
 	if(MODULE_COMMUNITY == "ON"){

@@ -88,4 +88,6 @@
 	define( "SRV_2_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
 	# Your server #2 description
 
+// Extra servers
+
 ?>
