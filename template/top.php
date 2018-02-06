@@ -1,9 +1,11 @@
 <section class="face" style="background-image: url( 'img/bg_0.jpg' );">
+<!-- Specify the path to your video file or remove this code if you do not need a video as a fullscreen background -->
 <div class="fullvideo">
 	<video loop="" muted="" autoplay="" playsinline="">
 		<source src="bg.mp4" type="video/mp4">
 	</video>
 </div>
+<! -- Fullscreen vide END -->
                 <div class="face-body">
                         <div class="container text-center">
                                 <h1 class="face-title one"><?php echo SRV_NAME; ?></h1>
