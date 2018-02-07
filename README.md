@@ -51,6 +51,11 @@ Open up `config.php`
 - edit `/template/rules.php`
 - edit `/template/staff.php`
 
+## Contact module (Email form)
+
+Contact module contain only basic HTML form, without any functionality to send email's. If you want to have fully-functional feedback form you need to edit `/modules/contact.php` and add some additional code. Take a look at this [PHP:mail](http://php.net/manual/en/function.mail.php) or use [PHPMailer](https://github.com/PHPMailer/PHPMailer) class.
+
+
 ## How to add more than 2 servers
 
 Open `includes.php` and add this code after
