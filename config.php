@@ -4,8 +4,8 @@
 * Created by Kirill Krasin (https://krasin.in.ua)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","1.0.4" );
-	define( "CSS_VER","020218" );
+	define( "VERSION","1.0.5" );
+	define( "CSS_VER","070218" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
@@ -26,6 +26,9 @@
 
 	define( "CACHE_LIFETIME" , "300" );
 	# How often the cache is cleared (in seconds), set to "0" to disable caching
+
+	define( "CONF_BGVID" , "ON" );
+        # Fullscreen background video, change it to "OFF", if you want only image
 
 //======================================================================
 // Modules Config | By default all modules is enabled
@@ -48,13 +51,16 @@
 	# URL to your store
 
 	define( "MODULE_RULES" , "ON" );
-	# Rules module, ON/OFF - Add or edit rules by edit this file --> /template/rules.php <--
+	# Rules module, ON/OFF - Add or edit rules by edit this file --> /modules/rules.php <--
 
 	define( "MODULE_SOCIAL" , "ON" );
         # Social module, ON/OFF
 
 	define( "MODULE_STAFF" , "ON" );
-	# Staff module, ON/OFF - Add or edit your staff members by edit this file --> /template/staff.php <--
+	# Staff module, ON/OFF - Add or edit your staff members by edit this file --> /modules/staff.php <--
+
+	define( "MODULE_CONTACT" , "ON" );
+        # Contact module, ON/OFF - Add or edit template by edit this file --> /modules/contact.php <--
 
 //======================================================================
 // Social Links
