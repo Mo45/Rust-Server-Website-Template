@@ -47,7 +47,7 @@
 <?php if(MODULE_RULES == "ON"){include_once("modules/rules.php");};?>
 <?php if(MODULE_STAFF == "ON"){include_once("modules/staff.php");};?>
 <?php if(MODULE_SOCIAL == "ON"){include_once("modules/social.php");};?>
-
+<?php if(MODULE_CONTACT == "ON"){include_once("modules/contact.php");};?>
 </div>
 <?php include_once("template/footer.php");?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
