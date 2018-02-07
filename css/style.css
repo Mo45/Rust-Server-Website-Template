@@ -118,7 +118,7 @@ div.store {
 div.store > h3 {
     color: #948c87;
 }
-section.rules,section.store,section.staff,section.community {
+section.rules,section.store,section.staff,section.community,section.social {
     border-bottom: 1px solid rgba(230,230,232,.1);
 }
 section.footer {
@@ -177,4 +177,23 @@ p.staff-role {
 }
 img, embed, object, audio, video {
     max-width: 100%;
+}
+.modal-content#contact {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    pointer-events: auto;
+    background-color: #c43235;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal-header#contact {
+    border-bottom: 1px solid rgba(230,230,232,.1);
+}
+.modal-footer#contact {
+    border-top: 1px solid rgba(230,230,232,.1);
 }
