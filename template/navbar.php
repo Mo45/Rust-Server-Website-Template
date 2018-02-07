@@ -32,6 +32,11 @@
         <a class="nav-link" href="#staff">Staff</a>
       </li>
 <?php };?>
+<?php if(MODULE_CONTACT == "ON"){ ;?>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+<?php };?>
     </ul>
   </div>
 </div>
