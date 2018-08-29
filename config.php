@@ -12,7 +12,7 @@
 // Global Site Config
 //======================================================================
 
-	define( "SITE_URL" , "https://rust-servers.info/demo/" );
+	define( "SITE_URL" , "https://lab.krasin.in.ua/rust/" );
 	# Your website URL
 
 	define( "SRV_NAME" , "Mega Awesome Servers" );
@@ -47,7 +47,7 @@
 	define( "MODULE_STORE" , "ON" );
 	# External store module, ON/OFF
 
-	define( "STORE_URL" , "https://rust-servers.info/demo/#store" );
+	define( "STORE_URL" , "https://lab.krasin.in.ua/rust/#store" );
 	# URL to your store
 
 	define( "MODULE_RULES" , "ON" );
