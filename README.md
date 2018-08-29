@@ -7,7 +7,7 @@ Website Template for Rust server
 
 ## Demo
 
-See a demo at https://rust-servers.info/demo/
+See a demo at https://lab.krasin.in.ua/rust/
 
 ## Donate
 
