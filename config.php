@@ -12,7 +12,7 @@
 // Global Site Config
 //======================================================================
 
-	define( "SITE_URL" , "https://lab.krasin.in.ua/rust/" );
+	define( "SITE_URL" , "https://demo.krasin.in.ua/" );
 	# Your website URL
 
 	define( "SRV_NAME" , "Mega Awesome Servers" );
