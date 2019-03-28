@@ -5,6 +5,10 @@ Website Template for Rust server
 
 **Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 4 and Rust-Servers.Info API.
 
+## Rust-servers.net inegration
+
+Hello there guys, if you are Rust server owner and already added your server to **Rust-Servers.net**, please [contact me](https://me.gametranslation.net/) i need API-keys to test and add rust-servers.net functionality. Thank you. 
+
 ## Demo
 
 See a demo at https://me.gametranslation.net/rust
