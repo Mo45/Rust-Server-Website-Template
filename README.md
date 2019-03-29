@@ -3,11 +3,7 @@
 # Rust-Server-Website-Template
 Website Template for Rust server
 
-**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 4 and Rust-Servers.Info API.
-
-## Rust-servers.net inegration
-
-Hello there guys, if you are Rust server owner and already added your server to **Rust-Servers.net**, please [contact me](https://me.gametranslation.net/) i need API-keys to test and add rust-servers.net functionality. Thank you. 
+**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 4 and **Rust-Servers.Info** or **Rust-Servers.Net** API.
 
 ## Demo
 
@@ -29,6 +25,14 @@ You can help us by giving back to support developement. Become my patron on [Pat
   * Number of players Curr/Max with progress bar (Dynamic)
   * Online/Offline Indicator (Dynamic)
   * Connect and Vote buttons
+* **Servers Module V2** (Rust-Servers.Net API)
+  * Number of players Curr/Max with progress bar (Dynamic)
+  * Online/Offline Indicator (Dynamic)
+  * Connect and Vote buttons
+* **Discord Server Module** (Discord Data)
+  * Server Name (Dynamic)
+  * Online Users (Dynamic)
+  * Online Users Images (UP to 18 users)
 * **Steam Group Module** (Steam Community Data)
   * Total Users (Dynamic)
   * Online Users (Dynamic)
@@ -50,9 +54,17 @@ Open up `config.php`
 - change `SRV_TWITTER` to your server Twitter username.
 - change `CACHE_LIFETIME` cache lifetime in seconds, default value - **300**, set to **0** to disable caching.
 - change `STEAM_GID` to your Steam Group ID64 (https://support.multiplay.co.uk/support/solutions/articles/1000202859).
+- change `DISCORD_SERVER_ID` to your Discord Server ID (Discord App -> Your Server -> Server Settings -> Widget -> Server ID)
+- change `DISCORD_INVITE_LINK` to your Discord Server Invite Link (Discord App -> Your Server -> Server Settings -> Invites -> Create One (Set this link to never expire))
 - change `STORE_URL` to your server store url.
-- change `SRV_ID_1` to your server ID on https://Rust-Servers.Info.
-- change `SRV_1_DESC` to your server short description.
+- change `SERVER_1_KEY` to your server API Key from https://Rust-Servers.net.
+- change `SERVER_1_DESC` to your server short description.
+
+## Rust-Servers.INFO or Rust-Servers.NET API?
+
+You can choose your prefered monitoring service, **rust-servers.info** or **rust-servers.net** API. By default (from v**2.0**) this template using [Rust-Servers.Net API](https://rust-servers.net), in order to use it you need to provide API key for each of your servers.
+
+If you want to use **rust-servers.info** API, you need to set `MODULE_SERVERS_V2` to `OFF` and `MODULE_SERVERS` to `ON`.
 
 ## Personalize your website
 
