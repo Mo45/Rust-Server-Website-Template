@@ -14,7 +14,7 @@
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s1_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s1_max; ?>"></div>
 </div>
 <a href="steam://connect/<?php echo $s1_ip; ?>:<?php echo $s1_port; ?>" <?php echo $s1_button; ?>
-<a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_1; ?>.html" class="btn btn-outline-light btn-lg"><i class="fas fa-vote-yea"></i> Vote</a>
+<a target="_blank" href="<?php echo $s1_url; ?>vote/" class="btn btn-outline-light btn-lg"><i class="fas fa-vote-yea"></i> Vote</a>
 </div>
 </div>
 <!-- Server #1 END -->
@@ -31,7 +31,7 @@
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s2_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s2_max; ?>"></div>
 </div>
 <a href="steam://connect/<?php echo $s2_ip; ?>:<?php echo $s2_port; ?>" <?php echo $s2_button; ?>
-<a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_2; ?>.html" class="btn btn-outline-light btn-lg"><i class="fas fa-vote-yea"></i> Vote</a>
+<a target="_blank" href="<?php echo $s2_url; ?>vote/" class="btn btn-outline-light btn-lg"><i class="fas fa-vote-yea"></i> Vote</a>
 </div>
 </div>
 <!-- Server #2 END -->

@@ -17,6 +17,11 @@
         <a class="nav-link" href="#community">Community</a>
       </li>
 <?php };?>
+<?php if(MODULE_DISCORD == "ON"){ ;?>
+      <li class="nav-item">
+        <a class="nav-link" href="#discord">Discord</a>
+      </li>
+<?php };?>
 <?php if(MODULE_STORE == "ON"){ ;?>
       <li class="nav-item">
         <a class="nav-link" href="#store">Store</a>

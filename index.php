@@ -8,7 +8,7 @@
 <title><?php echo SRV_NAME ;?></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css?v=<?php if(DEV_MODE == "ON"){echo rand();}else{echo CSS_VER;};?>">
 <meta name="theme-color" content="#c43235">
 <meta name="description" content="<?php echo SRV_NAME; ?> &middot; <?php echo SRV_SLOGAN; ?>">
@@ -33,7 +33,7 @@
 <link rel="shortcut icon" href="img/32x32.png">
 <link rel="apple-touch-icon-precomposed" href="img/256x256.png">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/8f466ad9bd.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#scroll">
@@ -42,7 +42,9 @@
 
 <div class="container">
 <?php if(MODULE_SERVERS == "ON"){include_once("modules/servers.php");};?>
+<?php if(MODULE_SERVERS_V2 == "ON"){include_once("modules/servers-v2.php");};?>
 <?php if(MODULE_COMMUNITY == "ON"){include_once("modules/community.php");};?>
+<?php if(MODULE_DISCORD == "ON"){include_once("modules/discord.php");};?>
 <?php if(MODULE_STORE == "ON"){include_once("modules/store.php");};?>
 <?php if(MODULE_RULES == "ON"){include_once("modules/rules.php");};?>
 <?php if(MODULE_STAFF == "ON"){include_once("modules/staff.php");};?>
@@ -50,17 +52,11 @@
 <?php if(MODULE_CONTACT == "ON"){include_once("modules/contact.php");};?>
 </div>
 <?php include_once("template/footer.php");?>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script>
-$('.progress-bar').each(function() {
-  var min = $(this).attr('aria-valuemin');
-  var max = $(this).attr('aria-valuemax');
-  var now = $(this).attr('aria-valuenow');
-  var siz = (now-min)*100/(max-min);
-  $(this).css('width', siz+'%');
-});
-</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});$('.progress-bar').each(function() {var min = $(this).attr('aria-valuemin');var max = $(this).attr('aria-valuemax');var now = $(this).attr('aria-valuenow');var siz = (now-min)*100/(max-min);$(this).css('width', siz+'%');});</script>
 </body>
 </html>

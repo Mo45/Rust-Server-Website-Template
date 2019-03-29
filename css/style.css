@@ -109,8 +109,17 @@ div.members#online {
 div.members#ingame {
     color: #8bc53f;
 }
+div.members#discord {
+    color: #8bc53f;
+    padding-top:10px;
+}
 section.community > div.row {
     margin-bottom: 3rem;
+}
+div.discord-invite {
+    margin-top: 3rem;
+    border-bottom: 1px solid rgba(230,230,232,.1);
+    padding-bottom: 3rem;
 }
 div.store {
     padding-top:6rem;
@@ -139,6 +148,14 @@ section.footer > div.container > span > a:hover {
 img.rounded-circle.staff {
     max-width:150px;
     border: 2px solid rgba(196,50,53,1);
+}
+img.rounded-circle.discord-user {
+    max-width:50px;
+    border: 2px solid rgba(196,50,53,1);
+}
+h2.discord {
+    color:#7289DA;
+    font-size: 1.2rem;
 }
 p.staff-name {
     padding-top:1rem;
