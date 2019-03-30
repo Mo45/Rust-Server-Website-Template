@@ -145,3 +145,5 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 > - MIT License
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
+
+If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/rustserversinfo) (**Pro Tier** or higher), and [contact me](https://me.gametranslation.net/) from your Patreon account.
