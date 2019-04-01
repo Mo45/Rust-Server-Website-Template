@@ -9,6 +9,12 @@ Website Template for Rust server
 
 See a demo at https://demo.ruster.site
 
+## Хостинг сайтой для серверов Rust
+
+[Надёжный, быстрый хостинг для вашего сайта сервера Rust](https://ruster.site) с готовым шаблоном, интеграцией Steam и Discord. Никакой возни с кодом! Всю работу мы сделаем за вас! Настроим домен, отредактируем PHP и JavaScript-код!
+
+Все что требуется от Вас — выбрать тариф и предоставить необходимые данные.
+
 ## Donate
 
 You can help us by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/rustserversinfo).

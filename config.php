@@ -12,7 +12,7 @@
 // Global Site Config
 //======================================================================
 
-	define( "SITE_URL" , "https://me.gametranslation.net/rust" );
+	define( "SITE_URL" , "https://demo.ruster.site" );
 	# Your website URL
 
 	define( "SRV_NAME" , "Mega Awesome Servers" );
