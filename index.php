@@ -9,7 +9,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css?v=<?php if(DEV_MODE == "ON"){echo rand();}else{echo CSS_VER;};?>">
+<link rel="stylesheet" href="https://res.cloudinary.com/kirillkrasin/raw/upload/v1554119172/demo/style.css">
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
 <meta name="theme-color" content="#c43235">
 <meta name="description" content="<?php echo SRV_NAME; ?> &middot; <?php echo SRV_SLOGAN; ?>">
 <meta property="og:type" content="website" />
@@ -19,19 +24,19 @@
 <meta property="og:title" content="<?php echo SRV_NAME; ?>">
 
 <!-- Recomended size for image is 800 x 420 px! -->
-<link rel="image_src" href="img/256x256.png">
-<meta property="og:image" content="img/256x256.png" />
+<link rel="image_src" href="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/256x256.png">
+<meta property="og:image" content="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/256x256.png" />
 <meta property="og:image:width" content="256" />
 <meta property="og:image:height" content="256" />
 
-<meta name="twitter:image" content="img/256x256.png" />
+<meta name="twitter:image" content="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/256x256.png" />
 <meta name="twitter:site" content="@<?php echo SRV_TWITTER; ?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@Mo_45">
 
-<link rel="icon" href="img/32x32.png">
-<link rel="shortcut icon" href="img/32x32.png">
-<link rel="apple-touch-icon-precomposed" href="img/256x256.png">
+<link rel="icon" href="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/32x32.png">
+<link rel="shortcut icon" href="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/32x32.png">
+<link rel="apple-touch-icon-precomposed" href="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/256x256.png">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
