@@ -9,13 +9,16 @@
 		$s1_name	= $parsed_json['name'];
 		$s1_status	= $parsed_json['is_online'];
 			if($s1_status == "1"){$s1_status = "Online";$s1_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a> ";}
-                        else{$s1_status = "Offline";$s1_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";};
+            else{$s1_status = "Offline";$s1_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";};
 		$s1_cur		= $parsed_json['players'];
 		$s1_max		= $parsed_json['maxplayers'];
 		$s1_url		= $parsed_json['url'];
+		if(MODULE_SERVERS_V2 == "ON"){$s1_img = "img/serverlogo.png";};//Remove PHP Notice in logs
+		if(MODULE_SERVERS_V2 == "OFF"){
 		$s1_img		= $parsed_json['image'];
 		if ($s1_img == "") {$s1_img = "img/serverlogo.png";};//Empty path fix
 		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.png";};
+		};
 		$s1_ip		= $parsed_json['address'];
 		$s1_port	= $parsed_json['port'];
 	//GET JSON STATUS FOR SERVER #2
@@ -23,17 +26,20 @@
         $json_string = file_get_contents($json_url);
         $parsed_json = json_decode($json_string,true);
 		$s2_name        = $parsed_json['name'];
-                $s2_status      = $parsed_json['is_online'];
-                        if($s2_status == "1"){$s2_status = "Online";$s2_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>&nbsp;";}
+        $s2_status      = $parsed_json['is_online'];
+            if($s2_status == "1"){$s2_status = "Online";$s2_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>&nbsp;";}
 			else{$s2_status = "Offline";$s2_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a> ";};
-                $s2_cur         = $parsed_json['players'];
-                $s2_max         = $parsed_json['maxplayers'];
-                $s2_url		= $parsed_json['url'];
-                $s2_img         = $parsed_json['image'];
+        $s2_cur         = $parsed_json['players'];
+        $s2_max         = $parsed_json['maxplayers'];
+        $s2_url		= $parsed_json['url'];
+        if(MODULE_SERVERS_V2 == "ON"){$s2_img = "img/serverlogo.png";};//Remove PHP Notice in logs
+        if(MODULE_SERVERS_V2 == "OFF"){
+        $s2_img         = $parsed_json['image'];
 		if ($s2_img == "") {$s2_img = "img/serverlogo.png";};//Empty path fix
 		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
-                $s2_ip          = $parsed_json['address'];
-                $s2_port        = $parsed_json['port'];
+		};
+        $s2_ip          = $parsed_json['address'];
+        $s2_port        = $parsed_json['port'];
 	//EXTRA SERVERS START
 
 	//EXTRA SERVERS END
