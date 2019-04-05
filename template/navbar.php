@@ -7,7 +7,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-<?php if(MODULE_SERVERS == "ON"){ ;?>
+<?php if(MODULE_SERVERS == "ON" OR MODULE_SERVERS_V2 == "ON"){ ;?>
       <li class="nav-item">
         <a class="nav-link" href="#servers">Servers</a>
       </li>

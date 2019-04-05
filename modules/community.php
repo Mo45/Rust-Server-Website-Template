@@ -14,5 +14,6 @@
 <span>IN-GAME</span>
 </div>
 </div>
-<a href="https://steamcommunity.com/gid/<?php echo STEAM_GID; ?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-steam-symbol"></i> Join Our Steam Group</a>
+<div>
+<a href="https://steamcommunity.com/gid/<?php echo STEAM_GID; ?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-steam-symbol"></i> Join Our Steam Group</a></div>
 </section>

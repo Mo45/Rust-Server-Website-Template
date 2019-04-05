@@ -9,9 +9,11 @@ Website Template for Rust server
 
 See a demo at https://demo.ruster.site
 
-## Website hosting for Patrons
+## Extended access for Patrons
 
-If you don't want to mess around with setting up a template or hosting, I can help you with that. Check my [Patreon page](https://www.patreon.com/rustserversinfo) for more info.
+If you don't want to mess around with setting up a template or hosting, I can help you with that. Also, all patrons will have an extended access to Template features, such as Discord support, and [additional template styles](https://demo.ruster.site/?v=2).
+
+Check my [Patreon page](https://www.patreon.com/rustserversinfo) for more info.
 
 ## Хостинг сайтов для серверов Rust
 
