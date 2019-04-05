@@ -1,1 +1,5 @@
 cache/
+.htaccess
+css/chester.css
+loader.php
+index-v2.php
