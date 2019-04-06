@@ -25,6 +25,9 @@ Check my [Patreon page](https://www.patreon.com/rustserversinfo) for more info.
 
 You can help us by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/rustserversinfo).
 
+## Sponsors
+
+Many thanks for supporting the project to Wesley Seeley ([The Rust City](http://therustcity.com)).
 ## Features
 
 * **Responsive Design**
