@@ -27,7 +27,7 @@ You can help us by giving back to support developement. Become my patron on [Pat
 
 ## Sponsors
 
-Many thanks for supporting the project to Wesley Seeley ([The Rust City](http://therustcity.com)).
+Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](http://therustcity.com)).
 ## Features
 
 * **Responsive Design**
