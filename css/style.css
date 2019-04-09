@@ -352,3 +352,6 @@ img, embed, object, audio, video {
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
+a.nav-item.nav-link {
+    color: #c43235;
+}
