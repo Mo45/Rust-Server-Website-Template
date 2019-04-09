@@ -58,6 +58,9 @@
 	define( "MODULE_STORE" , "ON" );
 	# External store module, ON/OFF
 
+	define( "MODULE_PRICING" , "ON" );
+	# Pricing Table, ON/OFF
+
 	define( "STORE_URL" , "https://me.gametranslation.net/rust/#store" );
 	# URL to your store
 

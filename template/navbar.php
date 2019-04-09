@@ -27,6 +27,11 @@
         <a class="nav-link" href="#store">Store</a>
       </li>
 <?php };?>
+<?php if(MODULE_PRICING == "ON"){ ;?>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </li>
+<?php };?>
 <?php if(MODULE_RULES == "ON"){ ;?>
       <li class="nav-item">
         <a class="nav-link" href="#rules">Rules</a>

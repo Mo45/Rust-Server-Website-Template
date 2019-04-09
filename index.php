@@ -9,7 +9,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://res.cloudinary.com/kirillkrasin/raw/upload/v1554119172/demo/style.css">
+<!-- link rel="stylesheet" href="https://res.cloudinary.com/kirillkrasin/raw/upload/v1554119172/demo/style.css" -->
+<link rel="stylesheet" href="https://demo.ruster.site/css/style.css">
 <link rel='dns-prefetch' href='//use.fontawesome.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//code.jquery.com' />
@@ -51,6 +52,7 @@
 <?php if(MODULE_COMMUNITY == "ON"){include_once("modules/community.php");};?>
 <?php if(MODULE_DISCORD == "ON"){include_once("modules/discord.php");};?>
 <?php if(MODULE_STORE == "ON"){include_once("modules/store.php");};?>
+<?php if(MODULE_PRICING == "ON"){include_once("modules/pricing.php");};?>
 <?php if(MODULE_RULES == "ON"){include_once("modules/rules.php");};?>
 <?php if(MODULE_STAFF == "ON"){include_once("modules/staff.php");};?>
 <?php if(MODULE_SOCIAL == "ON"){include_once("modules/social.php");};?>
