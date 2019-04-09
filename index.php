@@ -9,8 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- link rel="stylesheet" href="https://res.cloudinary.com/kirillkrasin/raw/upload/v1554119172/demo/style.css" -->
-<link rel="stylesheet" href="https://demo.ruster.site/css/style.css">
+<link rel="stylesheet" href="<?=SITE_URL;?>/css/style.css">
 <link rel='dns-prefetch' href='//use.fontawesome.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//code.jquery.com' />
