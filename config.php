@@ -4,8 +4,8 @@
 * Created by Kirill Krasin (https://krasin.in.ua)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","2.0" );
-	define( "CSS_VER","290319" );
+	define( "VERSION","2.1" );
+	define( "CSS_VER","090419" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
@@ -61,7 +61,7 @@
 	define( "MODULE_PRICING" , "ON" );
 	# Pricing Table, ON/OFF
 
-	define( "STORE_URL" , "https://me.gametranslation.net/rust/#store" );
+	define( "STORE_URL" , "https://demo.ruster.site/#store" );
 	# URL to your store
 
 	define( "MODULE_RULES" , "ON" );
