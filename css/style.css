@@ -369,3 +369,6 @@ p.text-left > a:hover {
   color: #c43235;
   text-decoration: none;
 }
+.small#footer {
+  font-size: 11px;
+}
