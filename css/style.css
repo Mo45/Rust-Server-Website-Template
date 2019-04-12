@@ -355,3 +355,17 @@ img, embed, object, audio, video {
 a.nav-item.nav-link {
     color: #c43235;
 }
+h3.faq-question {
+  text-align: left;
+  border-bottom: 1px solid #c43235;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+p.text-left > a {
+  text-decoration: underline;
+  color: #fff;
+}
+p.text-left > a:hover {
+  color: #c43235;
+  text-decoration: none;
+}

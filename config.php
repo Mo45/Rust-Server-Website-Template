@@ -64,6 +64,9 @@
 	define( "STORE_URL" , "https://demo.ruster.site/#store" );
 	# URL to your store
 
+	define( "MODULE_FAQ" , "ON" );
+	# FAQ, ON/OFF
+
 	define( "MODULE_RULES" , "ON" );
 	# Rules module, ON/OFF - Add or edit rules by edit this file --> /modules/rules.php <--
 

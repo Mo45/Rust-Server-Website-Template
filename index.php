@@ -53,6 +53,7 @@
 <?php if(MODULE_STORE == "ON"){include_once("modules/store.php");};?>
 <?php if(MODULE_PRICING == "ON"){include_once("modules/pricing.php");};?>
 <?php if(MODULE_RULES == "ON"){include_once("modules/rules.php");};?>
+<?php if(MODULE_FAQ == "ON"){include_once("modules/faq.php");};?>
 <?php if(MODULE_STAFF == "ON"){include_once("modules/staff.php");};?>
 <?php if(MODULE_SOCIAL == "ON"){include_once("modules/social.php");};?>
 <?php if(MODULE_CONTACT == "ON"){include_once("modules/contact.php");};?>
