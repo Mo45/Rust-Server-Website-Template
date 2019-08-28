@@ -1,3 +1,8 @@
+/*!
+ * Rust-Server-Website-Template v2.2 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
+ * Copyright 2017-2019 Kirill Krasin
+ * Licensed under MIT (https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)
+ */
 body {
     position: relative;
     background-color: #06000a;
@@ -102,6 +107,13 @@ div.members {
 div.members > span {
     font-size:1rem;
     display: block;
+}
+span.discord {
+    font-size:1rem;
+    display: block;
+}
+#discord-total {
+    color: #fff;
 }
 div.members#online {
     color: #62a7e3;
@@ -371,4 +383,12 @@ p.text-left > a:hover {
 }
 .small#footer {
   font-size: 11px;
+}
+.face-title.one {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: 800;
 }

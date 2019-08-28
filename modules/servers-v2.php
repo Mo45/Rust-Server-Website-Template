@@ -5,7 +5,7 @@
 <div class="col-md-6 srv">
 <div class="one-server">
 <div class="<?=$s1_status;?>">
-<img src="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/<?php echo $s1_img; ?>" class="server-header img-fluid" alt="<?php echo $s1_name; ?>">
+<img src="<?=SITE_URL;?>/<?php echo $s1_img; ?>" class="server-header img-fluid" alt="<?php echo $s1_name; ?>">
 </div>
 <h2><?php echo $s1_name; ?></h2>
 <p><?php echo SRV_1_DESC; ?></p>
@@ -22,7 +22,7 @@
 <div class="col-md-6 srv">
 <div class="one-server">
 <div class="<?php echo $s2_status; ?>">
-<img src="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/<?php echo $s2_img; ?>" class="server-header img-fluid" alt="<?php echo $s2_name; ?>">
+<img src="<?=SITE_URL;?>/<?php echo $s2_img; ?>" class="server-header img-fluid" alt="<?php echo $s2_name; ?>">
 </div>
 <h2><?php echo $s2_name; ?></h2>
 <p><?php echo SRV_2_DESC; ?></p>

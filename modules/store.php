@@ -2,7 +2,7 @@
 <h1>Store</h1>
 <div class="row">
 <div class="col-md-5">
-<img src="//abjwokxjen.cloudimg.io/cdn/n/n/demo.ruster.site/img/store.jpg" class="img-fluid rounded" alt="Responsive image">
+<img src="<?=SITE_URL;?>/img/store.jpg" class="img-fluid rounded" alt="Responsive image">
 </div>
 <div class="col-md-7 store">
 <h2>Buy VIP packages</h2>

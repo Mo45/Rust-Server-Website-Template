@@ -2,8 +2,8 @@
 <section class="face">
 <!-- Specify the path to your video file, because this is video from Facepunch website :) -->
 <div class="fullvideo">
-        <video loop="" muted="" autoplay="" playsinline="">
-                <source src="bg.mp4" type="video/mp4">
+        <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" playsinline="">
+        	<source type="video/mp4" src="bg.mp4">
         </video>
 </div>
 <?php ;}else{ ?>

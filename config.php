@@ -1,11 +1,11 @@
 <?php
 /*
 * This is a config file for Rust-Server-Website-Template
-* Created by Kirill Krasin (https://krasin.in.ua)
+* Created by Kirill Krasin (https://github.com/Mo45/)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","2.1" );
-	define( "CSS_VER","090419" );
+	define( "VERSION","2.2" );
+	define( "CSS_VER","280819" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
@@ -24,7 +24,7 @@
     define( "SRV_TWITTER" , "Mo_45" );
     # Your server twitter username without @ (will be used in twitter meta tags and social links)
 
-	define( "CACHE_LIFETIME" , "0" );
+	define( "CACHE_LIFETIME" , "300" );
 	# How often the cache is cleared (in seconds), set to "0" to disable caching
 
 	define( "CONF_BGVID" , "ON" );

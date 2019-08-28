@@ -5,35 +5,26 @@ Website Template for Rust server
 
 **Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 4 and **Rust-Servers.Info** or **Rust-Servers.Net** API.
 
-## Demo
+## Demo :tv:
 
 See a demo at https://demo.ruster.site
 
-## Extended access for Patrons
+## Extended access and help for Patreon Patrons :metal:
 
-If you don't want to mess around with setting up a template or hosting, I can help you with that. Also, all patrons will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2).
+If you don't want to mess around with setting up a template or hosting, I can help you with that if you become my Patron and donate $10 or more. Also, all patrons will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
 
-Check my [Patreon page](https://www.patreon.com/rustserversinfo) for more info.
+You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/rustserversinfo).
 
-## Хостинг сайтов для серверов Rust
-
-[Надёжный, быстрый хостинг для вашего сайта сервера Rust](https://ruster.site) с готовым шаблоном, интеграцией Steam и Discord. Никакой возни с кодом! Всю работу мы сделаем за вас! Настроим домен, отредактируем PHP и JavaScript-код!
-
-Все что требуется от Вас — выбрать тариф и предоставить необходимые данные.
-
-## Donate
-
-You can help us by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/rustserversinfo).
-
-## Sponsors
+## Sponsors :dollar:
 
 Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](http://therustcity.com)), **Roger Karlsen** ([theNords.no](https://theNords.no)).
-## Features
+
+## Features :thumbsup:
 
 * **Responsive Design**
   * Valid HTML
-  * PageSpeed Score 96%
-  * YSlow Score 93%
+  * PageSpeed Score ~90% (Since i've add Discord avatar images overall score fall down little bit :sob: )
+  * YSlow Score ~85%
   * Less than 1MB
 * **Servers Module** (Rust-Servers.Info API)
   * Server Header Image (Dynamic)
@@ -54,11 +45,11 @@ Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](ht
   * In-Game Users (Dynamic)
 * **Full page caching** (Thx to [Jonatan](https://github.com/Jontis00))
 
-## Download
+## Download :arrow_down:
 
 Please note the main repository is constantly being updated so may contain bugs and other bleeding edge risks. For a stable download please visit the releases page: https://github.com/Mo45/Rust-Server-Website-Template/releases
 
-## Installation
+## Installation :construction_worker:
 
 Upload files to your server.
 
@@ -75,23 +66,22 @@ Open up `config.php`
 - change `SERVER_1_KEY` to your server API Key from https://Rust-Servers.net.
 - change `SERVER_1_DESC` to your server short description.
 
-## Rust-Servers.INFO or Rust-Servers.NET API?
+## Rust-Servers.INFO or Rust-Servers.NET API? :question:
 
 You can choose your prefered monitoring service, **rust-servers.info** or **rust-servers.net** API. By default (from v**2.0**) this template using [Rust-Servers.Net API](https://rust-servers.net), in order to use it you need to provide API key for each of your servers.
 
 If you want to use **rust-servers.info** API, you need to set `MODULE_SERVERS_V2` to `OFF` and `MODULE_SERVERS` to `ON`.
 
-## Personalize your website
+## Personalize your website :wrench:
 
 - edit `/template/rules.php`
 - edit `/template/staff.php`
 
-## Contact module (Email form)
+## Contact module (Email form) :mailbox_with_mail:
 
 Contact module contain only basic HTML form, without any functionality to send email's. If you want to have fully-functional feedback form you need to edit `/modules/contact.php` and add some additional code. Take a look at this [PHP:mail](http://php.net/manual/en/function.mail.php) or use [PHPMailer](https://github.com/PHPMailer/PHPMailer) class.
 
-
-## How to add more than 2 servers
+## How to add more than 2 servers :wrench:
 
 Open `includes.php` and add this code after
 ```
@@ -154,11 +144,11 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 </div>
 <!-- Server #3 END -->
 ```
-## Copyright
+## Copyright :copyright:
 
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 > - MIT License
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/rustserversinfo) (**Pro Tier** or higher), and [contact me](https://me.gametranslation.net/) from your Patreon account.
+If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/rustserversinfo) (**Supporter Tier** or higher), and [contact me](https://t.me/Mo_45).

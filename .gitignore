@@ -4,3 +4,6 @@ css/chester.css
 loader.php
 index-v2.php
 discord.php
+modules/paid/
+*.dev
+

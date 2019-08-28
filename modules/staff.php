@@ -4,7 +4,7 @@
 
 <!-- one member -->
 <div class="col-md-4">
-<img src="//abjwokxjen.cloudimg.io/width/146/n/demo.ruster.site/img/photo.jpg" class="rounded-circle staff" alt="Kirill Krasin"/>
+<img src="<?=SITE_URL;?>/img/photo.jpg" class="rounded-circle staff" alt="Kirill Krasin"/>
 <p class="staff-name">Kirill Krasin</p>
 <p class="staff-role">Owner</p>
 </div>
