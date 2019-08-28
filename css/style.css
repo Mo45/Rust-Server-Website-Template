@@ -20,6 +20,14 @@ body {
 nav.navbar.bg-dark {
     background-color:#c43235!important;
 }
+.modal-content {
+    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
+    border-radius: 0;
+    border-top: 1px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient(to left, #8f2527 1%, #c43235 50%, #c43235 100%) 
+              100% 0 100% 0/2px 0 2px 0 stretch;
+}
 .face {
     min-height: 100vh;
     position: relative;
