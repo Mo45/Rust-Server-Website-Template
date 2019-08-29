@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/Mo45/Rust-Server-Website-Template.svg)](https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/Mo45/Rust-Server-Website-Template.svg)](https://github.com/Mo45/Rust-Server-Website-Template/issues)
+[![GitHub license](https://img.shields.io/github/license/Mo45/Rust-Server-Website-Template.svg)](https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)  [![GitHub issues](https://img.shields.io/github/issues/Mo45/Rust-Server-Website-Template.svg)](https://github.com/Mo45/Rust-Server-Website-Template/issues)   ![GitHub followers](https://img.shields.io/github/followers/Mo45)   ![GitHub stars](https://img.shields.io/github/stars/Mo45/Rust-Server-Website-Template)   ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mo45/Rust-Server-Website-Template)   ![Twitter Follow](https://img.shields.io/twitter/follow/Mo_45)
 
 # Rust-Server-Website-Template
 Website Template for Rust server
