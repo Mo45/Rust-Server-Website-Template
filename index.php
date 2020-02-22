@@ -4,19 +4,20 @@
 ?>
 <!doctype html>
 <!--
- * Rust-Server-Website-Template v2.2 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
- * Copyright 2017-2019 Kirill Krasin
+ * Rust-Server-Website-Template v2.3 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
+ * Copyright 2017-2020 Kirill Krasin
  * Licensed under MIT (https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)
 -->
 <html lang="en">
 <head>
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 <title><?php echo SRV_NAME ;?></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="<?=SITE_URL;?>/css/style.css?v=<?php if(DEV_MODE == "ON"){echo rand();}else{echo CSS_VER;};?>">
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<!-- Bootstrap CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+<!-- Bootstrap CSS // -->
 <meta name="theme-color" content="#c43235">
 <meta name="description" content="<?php echo SRV_NAME; ?> &middot; <?php echo SRV_SLOGAN; ?>">
 <meta property="og:type" content="website"/>
@@ -41,9 +42,14 @@
 <link rel="shortcut icon" href="<?=SITE_URL;?>/img/32x32.webp">
 <link rel="apple-touch-icon-precomposed" href="<?=SITE_URL;?>/img/256x256.webp">
 
-<link href="<?=SITE_URL;?>/css/all.min.css" rel="stylesheet">
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+<!-- FontAwesome // -->
 <!-- If you want to change main font for your website, you can select one from Google Fonts, and replace Roboto Slab below. Also change font name in css/style.css -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+<!-- Core Stylesheet -->
+<link rel="stylesheet" href="<?=SITE_URL;?>/css/style.css?v=<?php if(DEV_MODE == "ON"){echo rand();}else{echo CSS_VER;};?>">
+<!-- Core Stylesheet // -->
 </head>
 <body data-spy="scroll" data-target="#scroll">
 <?php include_once("template/navbar.php");?>
@@ -63,10 +69,15 @@
 <?php if(MODULE_CONTACT == "ON"){include_once("modules/contact.php");};?>
 </div>
 <?php include_once("template/footer.php");?>
+<!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+<!-- jQuery // -->
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>
+<!-- Bootstrap JS // -->
+<!-- LazyLoad JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/12.3.0/lazyload.min.js" integrity="sha256-bojBIKfs4l2WDcJODncBIGEe5fhU7/sM3zRO5/f2nqE=" crossorigin="anonymous"></script>
+<!-- LazyLoad JS // -->
 <script>$(document).ready(function(){var lazyLoad=new LazyLoad({elements_selector:".lazy",});});</script>
 <script>$(function(){$('[data-toggle="tooltip"]').tooltip()});$('.progress-bar').each(function() {var min = $(this).attr('aria-valuemin');var max = $(this).attr('aria-valuemax');var now = $(this).attr('aria-valuenow');var siz = (now-min)*100/(max-min);$(this).css('width', siz+'%');});</script>
 </body>
