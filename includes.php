@@ -22,11 +22,11 @@
 		$s1_max		= $parsed_json['maxplayers'];
 		if($s1_max == ""){$s1_max = "0";};//Offline server players fix
 		$s1_url		= $parsed_json['url'];
-		if(MODULE_SERVERS_V2 == "ON"){$s1_img = "img/serverlogo.png";};//Remove PHP Notice in logs
+		if(MODULE_SERVERS_V2 == "ON"){$s1_img = "img/serverlogo.webp";};//Remove PHP Notice in logs
 		if(MODULE_SERVERS_V2 == "OFF"){
 		$s1_img		= $parsed_json['image'];
-		if ($s1_img == "") {$s1_img = "img/serverlogo.png";};//Empty path fix
-		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.png";};
+		if ($s1_img == "") {$s1_img = "img/serverlogo.webp";};//Empty path fix
+		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.webp";};
 		};
 		$s1_ip		= $parsed_json['address'];
 		$s1_port	= $parsed_json['port'];
@@ -50,11 +50,11 @@
         $s2_max         = $parsed_json['maxplayers'];
         if($s2_max == ""){$s2_max = "0";};//Offline server players fix
         $s2_url		= $parsed_json['url'];
-        if(MODULE_SERVERS_V2 == "ON"){$s2_img = "img/serverlogo.png";};//Remove PHP Notice in logs
+        if(MODULE_SERVERS_V2 == "ON"){$s2_img = "img/serverlogo.webp";};//Remove PHP Notice in logs
         if(MODULE_SERVERS_V2 == "OFF"){
         $s2_img         = $parsed_json['image'];
-		if ($s2_img == "") {$s2_img = "img/serverlogo.png";};//Empty path fix
-		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
+		if ($s2_img == "") {$s2_img = "img/serverlogo.webp";};//Empty path fix
+		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.webp";};
 		};
         $s2_ip          = $parsed_json['address'];
         $s2_port        = $parsed_json['port'];
@@ -75,8 +75,8 @@
 		$s1_cur		= $parsed_json['players_cur'];
 		$s1_max		= $parsed_json['players_max'];
 		$s1_img		= $parsed_json['image'];
-		if ($s1_img == "") {$s1_img = "img/serverlogo.png";};//Empty path fix
-		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.png";};
+		if ($s1_img == "") {$s1_img = "img/serverlogo.webp";};//Empty path fix
+		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo.webp";};
 		$s1_ip		= $parsed_json['ip'];
 		$s1_port	= $parsed_json['port'];
 	//GET JSON STATUS FOR SERVER #2
@@ -90,8 +90,8 @@
                 $s2_cur         = $parsed_json['players_cur'];
                 $s2_max         = $parsed_json['players_max'];
                 $s2_img         = $parsed_json['image'];
-		if ($s2_img == "") {$s2_img = "img/serverlogo.png";};//Empty path fix
-		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.png";};
+		if ($s2_img == "") {$s2_img = "img/serverlogo.webp";};//Empty path fix
+		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo.webp";};
                 $s2_ip          = $parsed_json['ip'];
                 $s2_port        = $parsed_json['port'];
 	//EXTRA SERVERS START

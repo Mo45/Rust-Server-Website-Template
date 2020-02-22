@@ -35,7 +35,7 @@
 ;?>
 
 <div class="col align-self-center">
-<img src="<?php echo $member['avatar_url'];?>" class="rounded-circle discord-user" title="<?php echo $member['username'];?>" data-toggle="tooltip" data-placement="top" alt="Kirill Krasin"/>
+<img src="<?=SITE_URL;?>/img/loader-50.webp" data-src="<?php echo $member['avatar_url'];?>" class="lazy rounded-circle discord-user" title="<?php echo $member['username'];?>" data-toggle="tooltip" data-placement="top" alt="Kirill Krasin"/>
 </div>
 <?php ;};?>
 

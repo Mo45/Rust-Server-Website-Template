@@ -4,7 +4,7 @@
 
 <!-- one member -->
 <div class="col-md-4">
-<img src="<?=SITE_URL;?>/img/photo.jpg" class="rounded-circle staff" alt="Kirill Krasin"/>
+<img src="<?=SITE_URL;?>/img/loader-150.webp" data-src="<?=SITE_URL;?>/img/photo.webp" class="lazy rounded-circle staff" alt="Kirill Krasin"/>
 <p class="staff-name">Kirill Krasin</p>
 <p class="staff-role">Owner</p>
 </div>
@@ -12,7 +12,7 @@
 
 <!-- one member -->
 <div class="col-md-4">
-<img src="//placehold.it/146" class="rounded-circle staff" alt="John Smith"/>
+<img src="<?=SITE_URL;?>/img/loader-150.webp" data-src="<?=SITE_URL;?>/img/loader-150.webp" class="lazy rounded-circle staff" alt="John Smith"/>
 <p class="staff-name">John Smith</p>
 <p class="staff-role">Admin</p>
 </div>
@@ -20,7 +20,7 @@
 
 <!-- one member -->
 <div class="col-md-4">
-<img src="//placehold.it/146" class="rounded-circle staff" alt="Robert Jones"/>
+<img src="<?=SITE_URL;?>/img/loader-150.webp" data-src="<?=SITE_URL;?>/img/loader-150.webp" class="lazy rounded-circle staff" alt="Robert Jones"/>
 <p class="staff-name">Robert Jones</p>
 <p class="staff-role">Moderator</p>
 </div>
