@@ -15,7 +15,7 @@ See a demo at https://demo.ruster.site
 
 If you don't want to mess around with setting up a template or hosting, I can help you with that if you become my Patron and donate $10 or more. Also, all patrons will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
 
-You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/rustserversinfo).
+You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).
 
 ## Sponsors :dollar:
 
@@ -153,4 +153,4 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/rustserversinfo) (**Supporter Tier** or higher), and [contact me](https://t.me/Mo_45).
+If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2Tier** or higher), and [contact me](https://t.me/Mo_45).
