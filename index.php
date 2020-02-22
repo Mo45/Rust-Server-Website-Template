@@ -27,19 +27,19 @@
 
 <!-- Recomended size for image is 800 x 420 px! -->
 <!-- If you want to change favicon or image for social network sharing preview, you need to create at least 2 images with sizes 32x32 and 256x256 pixels -->
-<link rel="image_src" href="<?=SITE_URL;?>/img/256x256.png">
-<meta property="og:image" content="<?=SITE_URL;?>/img/256x256.png" />
+<link rel="image_src" href="<?=SITE_URL;?>/img/256x256.webp">
+<meta property="og:image" content="<?=SITE_URL;?>/img/256x256.webp" />
 <meta property="og:image:width" content="256" />
 <meta property="og:image:height" content="256" />
 
-<meta name="twitter:image" content="<?=SITE_URL;?>/img/256x256.png" />
+<meta name="twitter:image" content="<?=SITE_URL;?>/img/256x256.webp" />
 <meta name="twitter:site" content="@<?php echo SRV_TWITTER; ?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:creator" content="@Mo_45">
 
-<link rel="icon" href="<?=SITE_URL;?>/img/32x32.png">
-<link rel="shortcut icon" href="<?=SITE_URL;?>/img/32x32.png">
-<link rel="apple-touch-icon-precomposed" href="<?=SITE_URL;?>/img/256x256.png">
+<link rel="icon" href="<?=SITE_URL;?>/img/32x32.webp">
+<link rel="shortcut icon" href="<?=SITE_URL;?>/img/32x32.webp">
+<link rel="apple-touch-icon-precomposed" href="<?=SITE_URL;?>/img/256x256.webp">
 
 <link href="<?=SITE_URL;?>/css/all.min.css" rel="stylesheet">
 <!-- If you want to change main font for your website, you can select one from Google Fonts, and replace Roboto Slab below. Also change font name in css/style.css -->

@@ -7,7 +7,7 @@
         </video>
 </div>
 <?php ;}else{ ?>
-<section class="face" style="background-image: url( '<?php echo SITE_URL; ?>/img/bg_0.jpg' );">
+<section class="face" style="background-image: url( '<?php echo SITE_URL; ?>/img/bg_0.webp' );">
 <?php ;};?>
                 <div class="face-body">
                         <div class="container text-center">
