@@ -11,9 +11,13 @@ Website Template for Rust server
 
 See a demo at https://demo.ruster.site
 
-## Extended access and help for Patreon Patrons :metal:
+## Using WordPress? Take a look at RSWT WordPress Theme :metal:
 
-If you don't want to mess around with setting up a template or hosting, I can help you with that if you become my Patron and donate $10 or more. Also, all patrons will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
+RSWT WordPress Theme [demo](http://rust.krasin.space/wordpress/). Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
+
+## Extended access for Patreon Patrons :metal:
+
+If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
 
 You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).
 
