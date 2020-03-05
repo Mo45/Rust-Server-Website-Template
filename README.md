@@ -11,11 +11,12 @@ Website Template for Rust server
 
 See a demo at https://demo.ruster.site
 
-## Using WordPress? Take a look at RSWT WordPress Theme :metal:
+## WordPress Theme For Your Rust Servers :metal:
 
-![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/H52r5rr.png "RSWT WordPress Theme Screenshot #2")
+![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
 
-RSWT WordPress Theme [demo](http://rust.krasin.space/wordpress/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. Fully configurable via WordPress Dashboard Settings Page. Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
+**RSWT WordPress Theme** [demo](http://rust.krasin.space/wordpress/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
+Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
 
 ## Extended access for Patreon Patrons :metal:
 
