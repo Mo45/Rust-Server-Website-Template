@@ -160,4 +160,4 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2Tier** or higher), and [contact me](https://t.me/Mo_45).
+If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2 Tier** or higher), and [contact me](https://t.me/Mo_45).
