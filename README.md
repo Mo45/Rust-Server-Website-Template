@@ -13,7 +13,7 @@ See a demo at https://demo.ruster.site
 
 ## Using WordPress? Take a look at RSWT WordPress Theme :metal:
 
-![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
+![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/H52r5rr.png "RSWT WordPress Theme Screenshot #2")
 
 RSWT WordPress Theme [demo](http://rust.krasin.space/wordpress/). Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
 
