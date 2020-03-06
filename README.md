@@ -9,7 +9,7 @@ Website Template for Rust server
 
 ## Demo :tv:
 
-See a demo at https://demo.ruster.site
+See a demo at https://rust.krasin.space/
 
 ## WordPress Theme For Your Rust Servers :metal:
 
