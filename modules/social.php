@@ -1,6 +1,6 @@
 <section class="section social text-center" id="social">
 <!-- paid modules -->
-<?php include_once('paid/twitter.php');include_once('paid/vk.php');?>
+<!-- ?php include_once('paid/twitter.php');include_once('paid/vk.php');? -->
 <!-- paid modules, /end -->
 <h1>Follow us</h1>
 <a href="<?php echo SRV_FACEBOOK; ?>" target="_blank" class="btn btn-outline-light"><i class="fab fa-facebook-f fa-fw"></i></a>

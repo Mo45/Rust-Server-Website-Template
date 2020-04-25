@@ -4,15 +4,15 @@
 * Created by Kirill Krasin (https://github.com/Mo45/)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","2.2" );
-	define( "CSS_VER","280819" );
+	define( "VERSION","2.3" );
+	define( "CSS_VER","250420" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
 // Global Site Config
 //======================================================================
 
-	define( "SITE_URL" , "https://demo.ruster.site" );
+	define( "SITE_URL" , "https://rust.krasin.space/" );
 	# Your website URL
 
 	define( "SRV_NAME" , "Mega Awesome Servers" );
@@ -61,7 +61,7 @@
 	define( "MODULE_PRICING" , "ON" );
 	# Pricing Table, ON/OFF
 
-	define( "STORE_URL" , "https://demo.ruster.site/#store" );
+	define( "STORE_URL" , "https://rust.krasin.space/#store" );
 	# URL to your store
 
 	define( "MODULE_FAQ" , "ON" );
