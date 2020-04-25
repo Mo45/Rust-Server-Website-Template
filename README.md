@@ -9,11 +9,18 @@ Website Template for Rust server
 
 ## Demo :tv:
 
-See a demo at https://demo.ruster.site
+See a demo at https://rust.krasin.space/
 
-## Extended access and help for Patreon Patrons :metal:
+## WordPress Theme For Your Rust Servers :metal:
 
-If you don't want to mess around with setting up a template or hosting, I can help you with that if you become my Patron and donate $10 or more. Also, all patrons will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
+![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
+
+**RSWT WordPress Theme** [demo](http://rust.krasin.space/wordpress/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
+Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
+
+## Extended access for Patreon Patrons :metal:
+
+If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
 
 You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).
 
@@ -153,4 +160,4 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2Tier** or higher), and [contact me](https://t.me/Mo_45).
+If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2 Tier** or higher), and [contact me](https://t.me/Mo_45).
