@@ -8,7 +8,7 @@
 <img src="<?=SITE_URL;?>/img/loader.webp" data-src="<?=SITE_URL;?>/<?php echo $s1_img; ?>" class="lazy server-header img-fluid" alt="<?php echo $s1_name; ?>">
 </div>
 <h2><?php echo $s1_name; ?></h2>
-<p><?php echo SRV_1_DESC; ?></p>
+<p><?php echo SERVER_1_DESC; ?></p>
 <span class="players">Players: <?php echo $s1_cur; ?>/<?php echo $s1_max; ?></span>
 <div class="progress" style="height:3px;">
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s1_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s1_max; ?>"></div>
@@ -24,7 +24,7 @@
 <img src="<?=SITE_URL;?>/img/loader.webp" data-src="<?=SITE_URL;?>/<?php echo $s2_img; ?>" class="lazy server-header img-fluid" alt="<?php echo $s2_name; ?>">
 </div>
 <h2><?php echo $s2_name; ?></h2>
-<p><?php echo SRV_2_DESC; ?></p>
+<p><?php echo SERVER_2_DESC; ?></p>
 <span class="players">Players: <?php echo $s2_cur; ?>/<?php echo $s2_max; ?></span>
 <div class="progress" style="height:3px;">
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s2_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s2_max; ?>"></div>
