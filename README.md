@@ -32,9 +32,9 @@ Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](ht
 
 * **Responsive Design**
   * Valid HTML
-  * PageSpeed Score ~90% (Since i've add Discord avatar images overall score fall down little bit :sob: )
-  * YSlow Score ~85%
-  * Less than 1MB
+  * PageSpeed Score Mobile:83% / PC:97% (Since i've add Discord avatar images overall score fall down little bit :sob: )
+  * YSlow Score 91%
+  * Fully Loaded Time 4.5s 
 * **Servers Module** (Rust-Servers.Info API)
   * Server Header Image (Dynamic)
   * Number of players Curr/Max with progress bar (Dynamic)
