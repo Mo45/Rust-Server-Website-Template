@@ -52,6 +52,9 @@ Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](ht
   * Total Users (Dynamic)
   * Online Users (Dynamic)
   * In-Game Users (Dynamic)
+* **Steam Authentication Module** (By [Ben Smith](https://github.com/SmItH197))
+* **Feedback Module**
+  * Send message directly to your Discord Channel
 * **Full page caching** (Thx to [Jonatan](https://github.com/Jontis00))
 
 ## Download :arrow_down:
@@ -74,6 +77,14 @@ Open up `config.php`
 - change `STORE_URL` to your server store url.
 - change `SERVER_1_KEY` to your server API Key from https://Rust-Servers.net.
 - change `SERVER_1_DESC` to your server short description.
+
+Open up `steamauth/SteamConfig.php`
+- change `domainname` to your domain name.
+- change `apikey` to your API-Key from http://steamcommunity.com/dev/apikey.
+
+Open up `modules/feedback.php`
+- change `$webhookurl` to your domain name.
+- change `<@REPLACE_WITH_YOUR_DISCORD_USER_ID>` with your UserID like this: `<@75216985209700352>`, you can find it here - https://krasin.space/discord/
 
 ## Rust-Servers.INFO or Rust-Servers.NET API? :question:
 
