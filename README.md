@@ -7,6 +7,8 @@ Website Template for Rust server
 
 ![Rust-Server-Website-Template](https://i.imgur.com/VdDFKYg.png "Rust-Server-Website-Template Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/vyOqJyc.png "Rust-Server-Website-Template Screenshot #2")
 
+![Rust-Server-Website-Template](https://i.imgur.com/mLVqOFf.png "Discord Feedback Message") ![Rust-Server-Website-Template](https://i.imgur.com/mLVqOFf.png "Discord Feedback Message")
+
 ## Demo :tv:
 
 See a demo at https://rust.krasin.space/
