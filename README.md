@@ -85,7 +85,7 @@ Open up `steamauth/SteamConfig.php`
 - change `apikey` to your API-Key from http://steamcommunity.com/dev/apikey.
 
 Open up `modules/feedback.php`
-- change `$webhookurl` to your domain name.
+- change `$webhookurl` to your Discord Channel webhook. You can also change BOT name and avatar here.
 - change `<@REPLACE_WITH_YOUR_DISCORD_USER_ID>` with your UserID like this: `<@75216985209700352>`, you can find it here - https://krasin.space/discord/
 
 ## Rust-Servers.INFO or Rust-Servers.NET API? :question:
