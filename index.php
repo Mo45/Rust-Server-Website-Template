@@ -1,10 +1,11 @@
 <?php
   include_once("cache.php");
   include_once("includes.php");
+  require ('steamauth/steamauth.php');
 ?>
 <!doctype html>
 <!--
- * Rust-Server-Website-Template v2.3 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
+ * Rust-Server-Website-Template v2.4 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
  * Copyright 2017-2020 Kirill Krasin
  * Licensed under MIT (https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)
 -->
