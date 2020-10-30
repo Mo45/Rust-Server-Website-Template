@@ -22,7 +22,7 @@ Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/J
 
 ## Extended access for Patreon Patrons :metal:
 
-If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://demo.ruster.site/?v=2) right after release.
+If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://rust.krasin.space/?v=2) right after release.
 
 You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).
 

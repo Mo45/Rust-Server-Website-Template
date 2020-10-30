@@ -8,3 +8,5 @@ discord.php
 modules/paid/
 *.dev
 
+
+/vendor/

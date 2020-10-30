@@ -2,28 +2,82 @@
 class discordFunc {
 
 function sendMSG($message,$username,$useremail,$userid,$steamurl,$steamava){
-
 //=======================================================================================================
 // Create new webhook in your Discord channel settings and copy&paste URL
 //=======================================================================================================
 
-$webhookurl = "YOUR_WEBHOOK_URL";
+$webhookurl = "https://discordapp.com/api/webhooks/747342231211344013/ra72w05SUkuNoy8GcAfqMsl3Asws8ubx6ha1yXk9xLLgzJwxpICKt8OvRjFnhURIGTt1";
+
+//=======================================================================================================
+// Compose message. You can use Markdown
+// Message Formatting -- https://discordapp.com/developers/docs/reference#message-formatting
+//========================================================================================================
+
 $timestamp = date("c", strtotime("now"));
+
 $json_data = json_encode([
-    // You can find your Discord User ID here -> https://krasin.space/discord/, replcae to get notified when someone send you message!
-    "content" => "New message from website! <@REPLACE_WITH_YOUR_DISCORD_USER_ID>",
+    // Message
+    //"content" => "Hello World! This is message line ;) And here is the mention, use userID <@12341234123412341>",
+    "content" => "New message from website! <@75216985209700352>",
+    // Username
+    //"username" => $sitename,
+
+    // Avatar URL.
+    // Uncoment to replace image set in webhook
+    //"avatar_url" => "https://rust.krasin.space/img/rust_icon.png",
+
+    // Text-to-speech
     "tts" => false,
+
+    // File upload
+    // "file" => "",
+
+    // Embeds Array
     "embeds" => [
         [
+            // Embed Title
+            //"title" => "PHP - Send message to Discord (embeds) via Webhook",
+
+            // Embed Type
             "type" => "rich",
+
+            // Embed Description
             "description" => $message,
+
+            // URL of title link
+            //"url" => $steamurl,
+
+            // Timestamp of embed must be formatted as ISO8601
             "timestamp" => $timestamp,
+
+            // Embed left border color in HEX
             "color" => hexdec( "3366ff" ),
+
+            // Footer
             "footer" => [
                 "text" => $username,
                 "icon_url" => $steamava
             ],
+
+            // Image to send
+            //"image" => [
+                //"url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=600"
+            //],
+
+            // Thumbnail
+            //"thumbnail" => [
+            //    "url" => "https://ru.gravatar.com/userimage/28503754/1168e2bddca84fec2a63addb348c571d.jpg?size=400"
+            //],
+
+            // Author
+            //"author" => [
+                //"name" => "krasin.space",
+                //"url" => "https://krasin.space/"
+            //],
+
+            // Additional Fields array
             "fields" => [
+                // Field 1
                 [
                     "name" => "Name",
                     "value" => $username,
@@ -39,6 +93,7 @@ $json_data = json_encode([
                     "value" => $userid,
                     "inline" => false
                 ]
+                // Etc..
             ]
         ]
     ]
@@ -62,5 +117,3 @@ curl_close( $ch );
 }//sendMSG
 
 };//discordFunc
-
-//Based on this Gist -> https://gist.github.com/Mo45/cb0813cb8a6ebcd6524f6a36d4f8862c
