@@ -1,8 +1,0 @@
-name: Rust-Server-Website-Template
-services:
-- environment_slug: php
-  github:
-    branch: main
-    deploy_on_push: true
-    repo: Mo45/Rust-Server-Website-Template
-  name: Rust-Server-Website-Template
