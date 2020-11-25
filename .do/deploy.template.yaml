@@ -1,0 +1,8 @@
+spec:
+  name: Rust-Server-Website-Template
+  services:
+  - environment_slug: php
+    git:
+      branch: main
+      repo_clone_url: https://github.com/Mo45/Rust-Server-Website-Template.git
+    name: Rust-Server-Website-Template
