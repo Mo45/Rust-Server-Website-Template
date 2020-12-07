@@ -6,8 +6,16 @@
 	$json_url = "https://rust-servers.net/api/?object=servers&element=detail&key=".SERVER_1_KEY."";
 	$json_string = file_get_contents($json_url);
 	$parsed_json = json_decode($json_string,true);
+	if(empty($parsed_json)){
+		$s1_name = "Server Offline";
+		$s1_status = "Offline";
+		$s1_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";
+        $s1_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
+        $s1_cur = "0"; $s1_max = "0";
+        $s1_img = "img/serverlogo_1024.webp";
+    }else{
 		$s1_name	= $parsed_json['name'];
-		if($s1_name == ""){$s1_name = "Server Offline";};//Offline server name fix
+		if($s1_name == "" OR empty($s1_name)){$s1_name = "Server Offline";};
 		$s1_status	= $parsed_json['is_online'];
 			if($s1_status == "1"){$s1_status = "Online";
 			$s1_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a> ";
@@ -18,24 +26,33 @@
             $s1_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
         };
 		$s1_cur		= $parsed_json['players'];
-		if($s1_cur == ""){$s1_cur = "0";};//Offline server players fix
+		if($s1_cur == "" OR empty($s1_cur)){$s1_cur = "0";};
 		$s1_max		= $parsed_json['maxplayers'];
-		if($s1_max == ""){$s1_max = "0";};//Offline server players fix
+		if($s1_max == "" OR empty($s1_max)){$s1_max = "0";};
 		$s1_url		= $parsed_json['url'];
 		if(MODULE_SERVERS_V2 == "ON"){$s1_img = "img/serverlogo_1024.webp";};//Remove PHP Notice in logs
 		if(MODULE_SERVERS_V2 == "OFF"){
 		$s1_img		= $parsed_json['image'];
-		if ($s1_img == "") {$s1_img = "img/serverlogo_1024.webp";};//Empty path fix
+		if ($s1_img == "" OR empty($s1_img)) {$s1_img = "img/serverlogo_1024.webp";};
 		if (getimagesize($s1_img) == false) {$s1_img = "img/serverlogo_1024.webp";};
 		};
 		$s1_ip		= $parsed_json['address'];
 		$s1_port	= $parsed_json['port'];
+	};
 	//GET JSON STATUS FOR SERVER #2
         $json_url = "https://rust-servers.net/api/?object=servers&element=detail&key=".SERVER_2_KEY."";
         $json_string = file_get_contents($json_url);
         $parsed_json = json_decode($json_string,true);
+        if(empty($parsed_json)){
+			$s2_name = "Server Offline";
+			$s2_status = "Offline";
+			$s2_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";
+        	$s2_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
+        	$s2_cur = "0"; $s2_max = "0";
+        	$s2_img = "img/serverlogo_1024.webp";
+    	}else{
 		$s2_name        = $parsed_json['name'];
-		if($s2_name == ""){$s2_name = "Server Offline";};//Offline server name fix
+		if($s2_name == "" OR empty($s2_name)){$s2_name = "Server Offline";};
         $s2_status      = $parsed_json['is_online'];
             if($s2_status == "1"){$s2_status = "Online";
             $s2_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>&nbsp;";
@@ -46,18 +63,19 @@
 			$s2_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
 		};
         $s2_cur         = $parsed_json['players'];
-        if($s2_cur == ""){$s2_cur = "0";};//Offline server players fix
+        if($s2_cur == "" OR empty($s2_cur)){$s2_cur = "0";};
         $s2_max         = $parsed_json['maxplayers'];
-        if($s2_max == ""){$s2_max = "0";};//Offline server players fix
+        if($s2_max == "" OR empty($s2_max)){$s2_max = "0";};
         $s2_url		= $parsed_json['url'];
         if(MODULE_SERVERS_V2 == "ON"){$s2_img = "img/serverlogo_1024.webp";};//Remove PHP Notice in logs
         if(MODULE_SERVERS_V2 == "OFF"){
         $s2_img         = $parsed_json['image'];
-		if ($s2_img == "") {$s2_img = "img/serverlogo_1024.webp";};//Empty path fix
+		if ($s2_img == "" OR empty($s2_img)) {$s2_img = "img/serverlogo_1024.webp";};
 		if (getimagesize($s2_img) == false) {$s2_img = "img/serverlogo_1024.webp";};
 		};
         $s2_ip          = $parsed_json['address'];
         $s2_port        = $parsed_json['port'];
+    };
 	//EXTRA SERVERS START
 
 	//EXTRA SERVERS END
