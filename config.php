@@ -1,4 +1,4 @@
-<?php
+<?php defined('_DCHECK') or exit('Restricted Access');
 /*
 * This is a config file for Rust-Server-Website-Template
 * Created by Kirill Krasin (https://github.com/Mo45/)

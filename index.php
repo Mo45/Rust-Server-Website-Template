@@ -1,4 +1,5 @@
 <?php
+  if(!defined('_DCHECK')) define('_DCHECK', true);
   include_once 'cache.php';
   include_once 'includes.php';
   require_once 'steamauth/steamauth.php';
