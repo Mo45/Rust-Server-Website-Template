@@ -14,14 +14,14 @@
 <span class="discord">MEMBERS</span>
 </div>
 <div class="col-md-6" id="discord-online">
-<?php echo count($discord_members); ?>
+<?php if(count($discord_members) >= "100"){echo "100+";}else{echo count($discord_members);}; ?>
 <span class="discord">USERS ONLINE</span>
 </div>
 </div>
 <!-- //Remove lines abowe if you don't have paid Discord module //END -->
 
 <!-- //Uncomment to use without Paid module//
-<?php echo count($discord_members); ?>
+<?php if(count($discord_members) >= "100"){echo "100+";}else{echo count($discord_members);}; ?>
 <span>USERS ONLINE</span>
 //Uncomment to use without Paid module// -->
 
