@@ -1,5 +1,5 @@
 <?php
-	include_once("config.php");
+	include_once 'config.php';
 
 	if(MODULE_SERVERS_V2 == "ON"){
 	//GET JSON STATUS FOR SERVER #1
@@ -103,9 +103,12 @@
 	//STEAM GROUP
 	$url = "http://steamcommunity.com/gid/".STEAM_GID."/memberslistxml/";
 	$xml = simplexml_load_file($url);
-	$memberscount	= $xml->memberCount;
-	$membersingame	= $xml->groupDetails->membersInGame;
-	$membersonline	= $xml->groupDetails->membersOnline;
+	$memberscount	= (int) $xml->memberCount;
+	$memberscount = number_format( $memberscount );
+	$membersingame	= (int) $xml->groupDetails->membersInGame;
+	$membersingame = number_format( $membersingame );
+	$membersonline	= (int) $xml->groupDetails->membersOnline;
+	$membersonline = number_format( $membersonline );
 	};
 	if(MODULE_DISCORD == "ON"){
 	//DISCORD SERVER

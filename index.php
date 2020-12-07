@@ -1,7 +1,7 @@
 <?php
-  include_once('cache.php');
-  include_once('includes.php');
-  require_once('steamauth/steamauth.php');
+  include_once 'cache.php';
+  include_once 'includes.php';
+  require_once 'steamauth/steamauth.php';
 ?>
 <!doctype html>
 <!--
