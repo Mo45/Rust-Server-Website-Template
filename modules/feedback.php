@@ -3,10 +3,11 @@ class discordFunc {
 
 function sendMSG($message,$username,$useremail,$userid,$steamurl,$steamava){
 //=======================================================================================================
-// Create new webhook in your Discord channel settings and copy&paste URL
+// Create new webhook in your Discord Server settings and copy&paste URL
+//		Server Settings -> Integrations -> Webhooks -> New Webhook
 //=======================================================================================================
 
-$webhookurl = "https://discordapp.com/api/webhooks/747342231211344013/ra72w05SUkuNoy8GcAfqMsl3Asws8ubx6ha1yXk9xLLgzJwxpICKt8OvRjFnhURIGTt1";
+$webhookurl = "YOUR_WEBHOOK_URL";
 
 //=======================================================================================================
 // Compose message. You can use Markdown
@@ -17,8 +18,8 @@ $timestamp = date("c", strtotime("now"));
 
 $json_data = json_encode([
     // Message
-    //"content" => "Hello World! This is message line ;) And here is the mention, use userID <@12341234123412341>",
-    "content" => "New message from website! <@75216985209700352>",
+    // You can find your Discord User ID here -> https://krasin.space/discord/, replcae to get notified when someone send you message!
+    "content" => "New message from website! <@REPLACE_WITH_YOUR_DISCORD_USER_ID>",
     // Username
     //"username" => $sitename,
 
