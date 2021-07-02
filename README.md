@@ -13,6 +13,8 @@ Website Template for Rust server
 
 See a demo at https://rust.krasin.space/
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b90cac0063&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 ## WordPress Theme For Your Rust Servers :metal:
 
 ![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
