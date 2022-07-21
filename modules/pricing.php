@@ -2,9 +2,9 @@
 <h2>Pricing Table</h2>
 <nav>
   <div class="nav justify-content-center nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-monthly-tab" data-toggle="tab" href="#monthly" role="tab" aria-controls="nav-monhtly" aria-selected="true">Monthly</a>
-    <a class="nav-item nav-link" id="nav-lifetime-tab" data-toggle="tab" href="#lifetime" role="tab" aria-controls="nav-lifetime" aria-selected="false">Lifetime</a>
-    <a class="nav-item nav-link" id="nav-lite-tab" data-toggle="tab" href="#lite" role="tab" aria-controls="nav-lite" aria-selected="false">Lite</a>
+    <a class="nav-item nav-link active" id="nav-monthly-tab" data-bs-toggle="tab" href="#monthly" role="tab" aria-controls="nav-monhtly" aria-selected="true">Monthly</a>
+    <a class="nav-item nav-link" id="nav-lifetime-tab" data-bs-toggle="tab" href="#lifetime" role="tab" aria-controls="nav-lifetime" aria-selected="false">Lifetime</a>
+    <a class="nav-item nav-link" id="nav-lite-tab" data-bs-toggle="tab" href="#lite" role="tab" aria-controls="nav-lite" aria-selected="false">Lite</a>
   </div>
 </nav>
 

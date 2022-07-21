@@ -4,7 +4,7 @@
 <p>If you have any questions, we will be happy to help you. Let us know!</p>
 
 <?php if(isset($_SESSION['steamid'])) { ;?>
-<button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#ContactModal"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</button>
+<button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#ContactModal"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</button>
 <?php ;}else{ ;?>
 <a href="<?php echo SITE_URL;?>?login" role="button" class="btn btn-outline-light btn-lg"><i class="fab fa-steam"></i> Log-In</a>
 <?php ;};?>
@@ -15,8 +15,7 @@
     <div class="modal-content" id="contact">
       <div class="modal-header" id="contact">
         <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
@@ -66,7 +65,7 @@
   <button type="submit" name="sendDisc" class="btn btn-outline-light">Send</button>
 
 </form>
-       or  <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+       or  <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

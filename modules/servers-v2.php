@@ -42,8 +42,7 @@
     <div class="modal-content" id="ServerConnect">
       <div class="modal-header" id="ServerConnect">
         <h5 class="modal-title" id="exampleModalLabel">Connect to Server</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
@@ -57,7 +56,7 @@
   </div>
   <p>In order to connect via in-game console, while you in Rust main menu press <kbd>F1</kbd> and paste code above.</p>
       </div>
-      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -70,8 +69,7 @@
     <div class="modal-content" id="ServerConnect">
       <div class="modal-header" id="ServerConnect">
         <h5 class="modal-title" id="exampleModalLabel">Connect to Server</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
@@ -85,7 +83,7 @@
   </div>
   <p>In order to connect via in-game console, while you in Rust main menu press <kbd>F1</kbd> and paste code above.</p>
       </div>
-      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

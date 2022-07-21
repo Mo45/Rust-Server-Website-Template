@@ -5,7 +5,7 @@
 <div class="col-lg-10 col-md-11 col-12 srv">
 <div class="one-server">
 <div class="<?=$s1_status;?>">
-<img src="<?=SITE_URL;?>/img/loader.webp" data-src="<?=SITE_URL;?>/<?php echo $s1_img; ?>" class="lazy server-header img-fluid" alt="<?php echo $s1_name; ?>">
+<img src="<?=SITE_URL;?>/img/loader.webp" data-bs-src="<?=SITE_URL;?>/<?php echo $s1_img; ?>" class="lazy server-header img-fluid" alt="<?php echo $s1_name; ?>">
 </div>
 <h2><?php echo $s1_name; ?></h2>
 <p><?php echo SERVER_1_DESC; ?></p>
@@ -26,8 +26,7 @@
     <div class="modal-content" id="ServerConnect">
       <div class="modal-header" id="ServerConnect">
         <h5 class="modal-title" id="exampleModalLabel">Connect to Server</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
         </button>
       </div>
       <div class="modal-body">
@@ -41,7 +40,7 @@
   </div>
   <p>In order to connect via in-game console, while you in Rust main menu press <kbd>F1</kbd> and paste code above.</p>
       </div>
-      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

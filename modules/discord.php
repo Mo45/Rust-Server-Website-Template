@@ -31,11 +31,11 @@
 <div class="row">
 <?php $i = 0; foreach
         ($discord_members as $member)
-                {if(++$i > 18) break;
+                {if(++$i > 22) break;
 ;?>
 
 <div class="col align-self-center">
-<img src="<?=SITE_URL;?>/img/loader-50.webp" data-src="<?php echo $member['avatar_url'];?>" class="lazy rounded-circle discord-user" title="<?php echo $member['username'];?>" data-toggle="tooltip" data-placement="top" alt="Kirill Krasin"/>
+<img src="<?=SITE_URL;?>/img/loader-50.webp" data-src="<?php echo $member['avatar_url'];?>" class="lazy rounded-circle discord-user" title="<?php echo $member['username'];?>" data-bs-toggle="tooltip" data-bs-placement="top" alt="<?php echo $member['username'];?>"/>
 </div>
 <?php ;};?>
 
