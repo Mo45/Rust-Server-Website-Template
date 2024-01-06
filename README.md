@@ -3,7 +3,7 @@
 # Rust-Server-Website-Template
 Website Template for Rust server
 
-**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 4 and **Rust-Servers.Info** or **Rust-Servers.Net** API.
+**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 5 and **Rust-Servers.Info** or **Rust-Servers.Net** API.
 
 ![Rust-Server-Website-Template](https://i.imgur.com/VdDFKYg.png "Rust-Server-Website-Template Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/vyOqJyc.png "Rust-Server-Website-Template Screenshot #2")
 
@@ -20,13 +20,13 @@ See a demo at https://rust.krasin.space/
 ![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
 
 **RSWT WordPress Theme** [demo](http://rust.krasin.space/wordpress/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
-Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). Theme available for [Patrons](https://www.patreon.com/bePatron?u=8929240) only.
+Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). Theme available for ~~[Patrons](https://www.patreon.com/bePatron?u=8929240)~~ only. You can buy it directly for $20 by contact me via [Telegram](https://www.t.me/Mo_45)
 
-## Extended access for Patreon Patrons :metal:
+## ~~Extended access for Patreon Patrons :metal:~~
 
-If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://rust.krasin.space/?v=2) right after release.
+~~If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://rust.krasin.space/?v=2) right after release.~~
 
-You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).
+~~You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).~~
 
 ## Sponsors :dollar:
 
@@ -175,4 +175,4 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2 Tier** or higher), and [contact me](https://t.me/Mo_45).
+If you really need to remove copyright from your project page, ~~become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2 Tier** or higher)~~, contact me directly via [Telegram](https://t.me/Mo_45).
