@@ -11,7 +11,7 @@ Website Template for Rust server
 
 ## Demo :tv:
 
-See a demo at https://rust.krasin.space/
+See a demo at https://rust.krasin.pro/
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b90cac0063&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
