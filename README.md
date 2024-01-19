@@ -19,14 +19,8 @@ See a demo at https://rust.krasin.pro/
 
 ![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
 
-**RSWT WordPress Theme** [demo](http://rust.krasin.space/wordpress/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
-Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). Theme available for ~~[Patrons](https://www.patreon.com/bePatron?u=8929240)~~ only. You can buy it directly for $20 by contact me via [Telegram](https://www.t.me/Mo_45)
-
-## ~~Extended access for Patreon Patrons :metal:~~
-
-~~If you become my Patron and donate $10 or more, you will have an extended access to Template features, private modules, and [additional template styles](https://rust.krasin.space/?v=2) right after release.~~
-
-~~You can help me by giving back to support developement. Become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240).~~
+**RSWT WordPress Theme** [demo](http://wp.krasin.pro/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
+Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). You can buy it for $20 on [Boosty](https://boosty.to/krasinkirill/posts/e76b767f-f5b4-475c-8dde-0025e1e96f08).
 
 ## Sponsors :dollar:
 
