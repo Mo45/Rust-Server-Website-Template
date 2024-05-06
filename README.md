@@ -3,17 +3,15 @@
 # Rust-Server-Website-Template
 Website Template for Rust server
 
-**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 5 and **Rust-Servers.Info** or **Rust-Servers.Net** API.
+**Rust-Server-Website-Template** is a responsive, dynamically updated PHP/CSS template for Rust server website. It is build with Bootstrap 5 and **Rust-Servers.Net** API.
 
-![Rust-Server-Website-Template](https://i.imgur.com/VdDFKYg.png "Rust-Server-Website-Template Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/vyOqJyc.png "Rust-Server-Website-Template Screenshot #2")
+![Rust-Server-Website-Template](https://i.imgur.com/gmN55Ub.png "Rust-Server-Website-Template Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/JjdBGIY.png "Rust-Server-Website-Template Screenshot #2")
 
 ![Rust-Server-Website-Template](https://i.imgur.com/mLVqOFf.png "Discord Feedback Message")
 
 ## Demo :tv:
 
-See a demo at https://rust.krasin.pro/
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b90cac0063&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+See a live demo at https://rswt.mosharust.com/
 
 ## WordPress Theme For Your Rust Servers :metal:
 
@@ -21,6 +19,8 @@ See a demo at https://rust.krasin.pro/
 
 **RSWT WordPress Theme** [demo](http://wp.krasin.pro/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
 Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). You can buy it for $20 on [Boosty](https://boosty.to/krasinkirill/posts/e76b767f-f5b4-475c-8dde-0025e1e96f08).
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b90cac0063&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ## Sponsors :dollar:
 
@@ -30,15 +30,8 @@ Many thanks for supporting the project to: **Wesley Seeley** ([The Rust City](ht
 
 * **Responsive Design**
   * Valid HTML
-  * PageSpeed Score Mobile:83% / PC:97% (Since i've add Discord avatar images overall score fall down little bit :sob: )
-  * YSlow Score 91%
-  * Fully Loaded Time 4.5s 
-* **Servers Module** (Rust-Servers.Info API)
-  * Server Header Image (Dynamic)
-  * Number of players Curr/Max with progress bar (Dynamic)
-  * Online/Offline Indicator (Dynamic)
-  * Connect and Vote buttons
-* **Servers Module V2** (Rust-Servers.Net API)
+  * Mobile-Friendly 
+* **Servers Module** (Rust-Servers.Net API)
   * Number of players Curr/Max with progress bar (Dynamic)
   * Online/Offline Indicator (Dynamic)
   * Connect and Vote buttons
@@ -82,22 +75,16 @@ Open up `steamauth/SteamConfig.php`
 
 Open up `modules/feedback.php`
 - change `$webhookurl` to your Discord Channel webhook. You can also change BOT name and avatar here.
-- change `<@REPLACE_WITH_YOUR_DISCORD_USER_ID>` with your UserID like this: `<@75216985209700352>`, you can find it here - https://krasin.space/discord/
-
-## Rust-Servers.INFO or Rust-Servers.NET API? :question:
-
-You can choose your prefered monitoring service, **rust-servers.info** or **rust-servers.net** API. By default (from v**2.0**) this template using [Rust-Servers.Net API](https://rust-servers.net), in order to use it you need to provide API key for each of your servers.
-
-If you want to use **rust-servers.info** API, you need to set `MODULE_SERVERS_V2` to `OFF` and `MODULE_SERVERS` to `ON`.
+- change `<@REPLACE_WITH_YOUR_DISCORD_USER_ID>` with your UserID like this: `<@75216985209700352>`
 
 ## Personalize your website :wrench:
 
 - edit `/template/rules.php`
 - edit `/template/staff.php`
 
-## Contact module (Email form) :mailbox_with_mail:
+## Contact module (Message to your Discord Server) :mailbox_with_mail:
 
-Contact module contain only basic HTML form, without any functionality to send email's. If you want to have fully-functional feedback form you need to edit `/modules/contact.php` and add some additional code. Take a look at this [PHP:mail](http://php.net/manual/en/function.mail.php) or use [PHPMailer](https://github.com/PHPMailer/PHPMailer) class.
+Open `/modules/feedback.php` and add your WebHook url into `$webhookurl` variable. Follow comments for additional parameters for you message composing.
 
 ## How to add more than 2 servers :wrench:
 
@@ -105,63 +92,117 @@ Open `includes.php` and add this code after
 ```
 //EXTRA SERVERS START
 ```
-If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+If you need more than 3 servers you need to change all **$s3_somevar** to **$s4_somevar**,**$s5_somevar**,**$s6_somevar** etc.
 ```
-	//GET JSON STATUS FOR SERVER #3
-        $json_url = "https://api.rust-servers.info/info/".SRV_ID_3."";
-        $json_string = file_get_contents($json_url);
-        $parsed_json = json_decode($json_string,true);
-		$s3_name        = $parsed_json['hostname'];
-                $s3_status      = $parsed_json['online_state'];
-                        if($s3_status == "1"){$s3_status = "Online";$s3_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a>";}
-			else{$s3_status = "Offline";$s3_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a> ";};
-                $s3_cur         = $parsed_json['players_cur'];
-                $s3_max         = $parsed_json['players_max'];
-                $s3_img         = $parsed_json['image'];
-		if ($s3_img == "") {$s3_img = "img/serverlogo.png";};//Empty path fix
-		if (getimagesize($s3_img) == false) {$s3_img = "img/serverlogo.png";};
-                $s3_ip          = $parsed_json['ip'];
-                $s3_port        = $parsed_json['port'];
+//GET JSON STATUS FOR SERVER #3
+  $json_url = "https://rust-servers.net/api/?object=servers&element=detail&key=".SERVER_3_KEY."";
+  $json_string = file_get_contents($json_url);
+  $parsed_json = json_decode($json_string,true);
+  if(empty($parsed_json)){
+    $s3_name = "Server Offline";
+    $s3_status = "Offline";
+    $s3_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";
+        $s3_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
+        $s3_vote_button = "<a target='_blank' href='#' class='btn btn-outline-light btn-lg disabled'><i class='fas fa-vote-yea'></i> Vote</a>";
+        $s3_cur = "0"; $s3_max = "0";
+        $s3_img = "img/serverlogo_1024.webp";
+    }else{
+    $s3_name  = $parsed_json['name'];
+    $s3_url   = $parsed_json['url'];
+    if($s3_name == "" OR empty($s3_name)){$s3_name = "Server Offline";};
+    $s3_status  = $parsed_json['is_online'];
+      if($s3_status == "1"){$s3_status = "Online";
+      $s3_button = "class='btn btn-outline-success btn-lg'><i class='fa fa-play-circle' aria-hidden='true'></i> Connect</a> ";
+      $s3_connect_button = "<button data-bs-toggle='modal' data-bs-target='#ServerConnect3' type='button' class='btn btn-outline-success btn-lg'><i class='fab fa-steam-symbol'></i> Connect</button>";
+      $s3_vote_button = "<a target='_blank' href='".$s3_url."vote/' class='btn btn-outline-light btn-lg'><i class='fas fa-vote-yea'></i> Vote</a>";
+    }
+            else{$s3_status = "Offline";
+            $s3_button = "class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle' aria-hidden='true'></i> Offline</a>&nbsp;";
+            $s3_connect_button = "<button type='button' class='btn btn-outline-danger btn-lg disabled'><i class='fa fa-exclamation-circle'></i> Offline</button>";
+            $s3_vote_button = "<a target='_blank' href='".$s3_url."vote/' class='btn btn-outline-light btn-lg disabled'><i class='fas fa-vote-yea'></i> Vote</a>";
+        };
+    $s3_cur   = $parsed_json['players'];
+    if($s3_cur == "" OR empty($s3_cur)){$s3_cur = "0";};
+    $s3_max   = $parsed_json['maxplayers'];
+    if($s3_max == "" OR empty($s3_max)){$s3_max = "0";};
+    $s3_img = "img/serverlogo_1024.webp";//Remove PHP Notice in logs
+    $s3_ip    = $parsed_json['address'];
+    $s3_port  = $parsed_json['port'];
+  };
 ```
 Next, open `config.php` and add this code after
 
 ```// Extra servers```
 
-If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+If you need more than 3 servers you need to change **SERVER_3_KEY** and **SERVER_3_DESC** to **SERVER_4_KEY** and **SERVER_4_DESC**,and so on - **5**,**6** etc.
 ```
 //-----------------------------------------------------
 // Server #3
 //-----------------------------------------------------
-	define( "SRV_ID_3","5" );
-	# Your server #3 ID (Rust-Servers.Info)
-	define( "SRV_3_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
-	# Your server #3 description
+
+  define( "SERVER_3_KEY","fkil0HQ6V8Blf3PBBM4rwkEkl2dgG5DwrhN" ); // REQUIRED
+  # Your server #3 API Key (Rust-Servers.Net)
+  define( "SERVER_3_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
+  # Your server #3 description
+
  ```
  Next, open `/modules/servers.php` and add this code after
  
-```<!-- Server #2 END -->```
+```<!-- Extra Servers Start -->```
 
-If you need more than 3 servers you need to change **3** to **4**,**5**,**6** etc.
+If you need more than 3 servers you need to change **$s3_somevar** to **$s4_somevar**,**$s5_somevar**,**$s6_somevar** etc.
 
 ```
-<!-- Server #3 START-->
+<!-- Server #3 START -->
 <div class="col-md-6 srv">
 <div class="one-server">
-<div class="<?php echo $s3_status; ?>">
-<img src="<?php echo $s3_img; ?>" class="server-header img-fluid" alt="<?php echo $s3_name; ?>">
+<div class="<?=$s3_status;?>">
+<img src="<?=SITE_URL;?>img/loader.webp" data-src="<?=SITE_URL;?><?php echo $s3_img; ?>" class="lazy server-header img-fluid" alt="<?php echo $s3_name; ?>">
 </div>
 <h2><?php echo $s3_name; ?></h2>
-<p><?php echo SRV_3_DESC; ?></p>
+<p><?php echo SERVER_3_DESC; ?></p>
 <span class="players">Players: <?php echo $s3_cur; ?>/<?php echo $s3_max; ?></span>
 <div class="progress" style="height:3px;">
   <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $s3_cur; ?>" aria-valuemin="0" aria-valuemax="<?php echo $s3_max; ?>"></div>
 </div>
-<a href="steam://connect/<?php echo $s3_ip; ?>:<?php echo $s3_port; ?>" <?php echo $s3_button; ?>
-<a target="_blank" href="https://rust-servers.info/login/?login&r=/vote/id-<?php echo SRV_ID_3; ?>.html" class="btn btn-outline-light btn-lg"><i class="fa fa-heart-o" aria-hidden="true"></i> Vote</a>
+<?php echo $s3_connect_button; ?>&nbsp;<?php echo $s3_vote_button; ?>
 </div>
 </div>
 <!-- Server #3 END -->
 ```
+After ```<!-- Server #2 Connect Modal END -->``` and add connect modal code:
+
+If you need more than 3 servers you need to change **$s3_somevar** to **$s4_somevar**,**$s5_somevar**,**$s6_somevar** etc.
+
+```
+<!-- Server #3 Connect Modal Start -->
+<div class="modal fade" id="ServerConnect3" tabindex="-1" role="dialog" aria-labelledby="ServerConnectmodal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" id="ServerConnect">
+      <div class="modal-header" id="ServerConnect">
+        <h5 class="modal-title" id="exampleModalLabel">Connect to Server</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>In order to connect <strong><?php echo $s3_name; ?></strong> server you can use direct Steam connection link, or copy console command and paste it in Rust console.</p>
+  <p class="text-center"><a href="steam://connect/<?php echo $s3_ip; ?>:<?php echo $s3_port; ?>" role="button" class="btn btn-success"><i class="fab fa-steam-symbol"></i> Connect via Steam</a></p>
+  <p>Once you press button above, Rust will be launched and try to connect server. This method doesn't work properly in some browsers.</p>
+  <hr>
+  <div class="form-group">
+    <label for="consolecommand-3">Connect via Rust in-game console</label>
+    <textarea class="form-control" id="consolecommand-3" rows="1">client.connect <?php echo $s3_ip; ?>:<?php echo $s3_port; ?></textarea>
+  </div>
+  <p>In order to connect via in-game console, while you in Rust main menu press <kbd>F1</kbd> and paste code above.</p>
+      </div>
+      <div class="modal-footer" id="contact"><button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Server #3 Connect Modal END -->
+```
+
 ## Copyright :copyright:
 
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -169,4 +210,4 @@ If you need more than 3 servers you need to change **3** to **4**,**5**,**6** et
 
 This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
 
-If you really need to remove copyright from your project page, ~~become my patron on [Patreon](https://www.patreon.com/bePatron?u=8929240) (**Supporter Level 2 Tier** or higher)~~, contact me directly via [Telegram](https://t.me/Mo_45).
+If you really need to remove copyright from your project page, Send me at least a tip [Boosty](https://boosty.to/krasinkirill/donate).
