@@ -1,5 +1,7 @@
 <section class="section community text-center" id="community">
-<h1>Community</h1>
+<div class="tabs">
+  <div class="spoon is-medium is-primary">Steam Community</div>
+</div>
 <div class="row">
 <div class="col-md-4 members" id="total">
 <?php echo $memberscount; ?>
@@ -15,5 +17,5 @@
 </div>
 </div>
 <div>
-<a href="https://steamcommunity.com/gid/<?php echo STEAM_GID; ?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-steam-symbol"></i> Join Our Steam Group</a></div>
+<a href="https://steamcommunity.com/gid/<?php echo STEAM_GID; ?>" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-steam-symbol"></i> Steam Group</a></div>
 </section>

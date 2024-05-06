@@ -1,5 +1,7 @@
 <section class="section social text-center" id="pricing">
-<h2>Pricing Table</h2>
+<div class="tabs">
+  <div class="spoon is-medium is-primary">Pricing Table</div>
+</div>
 <nav>
   <div class="nav justify-content-center nav-tabs" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-monthly-tab" data-bs-toggle="tab" href="#monthly" role="tab" aria-controls="nav-monhtly" aria-selected="true">Monthly</a>

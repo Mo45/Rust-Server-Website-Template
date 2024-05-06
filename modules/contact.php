@@ -1,5 +1,7 @@
 <section class="section contact text-center" id="contact">
-<h1>Contact</h1>
+<div class="tabs">
+  <div class="spoon is-medium is-primary">Contact</div>
+</div>
 <h3>Need to contact us?</h3>
 <p>If you have any questions, we will be happy to help you. Let us know!</p>
 
@@ -44,12 +46,12 @@
 
 <?php if(isset($_SESSION['steamid'])) { include_once('steamauth/userInfo.php');?>
 
-<label for="mailSteamid">SteamID</label>
+<label for="mailSteamID">SteamID</label>
 <input type="text" class="form-control is-valid" name="mailSteamID" id="mailSteamID" value="<?=$steamprofile['steamid'];?>">
 
 <?php ;}else{ ;?>
 
-<label for="mailSteamid">SteamID</label>
+<label for="mailSteamID">SteamID</label>
 <input type="text" class="form-control" name="mailSteamID" id="mailSteamID" placeholder="7656XXXXXXXXXXXXX" required>
 
 <?php ;};?>

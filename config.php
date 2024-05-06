@@ -4,21 +4,21 @@
 * Created by Kirill Krasin (https://github.com/Mo45/)
 * Latest versions - https://github.com/Mo45/Rust-Server-Website-Template
 */
-	define( "VERSION","2.4" );
-	define( "CSS_VER","250420" );
+	define( "VERSION","2.5" );
+	define( "CSS_VER","060524" );
 	define( "DEV_MODE","OFF" );
 
 //======================================================================
 // Global Site Config
 //======================================================================
 
-	define( "SITE_URL" , "https://rust.krasin.space/" );
+	define( "SITE_URL" , "https://rswt.mosharust.com/" );
 	# Your website URL
 
 	define( "SRV_NAME" , "Mega Awesome Servers" );
     # Server or project name, will be used as title
 
-    define( "SRV_SLOGAN" , "Mega Awesome Servers Slogan" );
+    define( "SRV_SLOGAN" , "Simple Website Template For Your Rust servers" );
     # Server or project slogan, will be used as slogan and description
 
     define( "SRV_TWITTER" , "Mo_45" );
@@ -33,11 +33,8 @@
 //======================================================================
 // Modules Config | By default all modules is enabled
 //======================================================================
-	define( "MODULE_SERVERS_V2" , "ON" );
+	define( "MODULE_SERVERS" , "ON" );
 	# Server status module RUST-SERVERS.NET API, ON/OFF
-
-	define( "MODULE_SERVERS" , "OFF" );
-	# Server status module RUST-SERVERS.INFO API, ON/OFF
 
 	define( "MODULE_COMMUNITY" , "ON" );
 	# Steam Group module, ON/OFF
@@ -109,30 +106,6 @@
 	define( "SERVER_2_KEY","UIWUz3SON8XK2hLzLluWybN8yI74T8bLVxV" ); // REQUIRED
 	# Your server #2 API Key (Rust-Servers.Net)
 	define( "SERVER_2_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
-	# Your server #2 description
-
-// Extra servers
-
-//======================================================================
-// Server Status Module Config (rust-servers.info)
-//======================================================================
-
-//-----------------------------------------------------
-// Server #1
-//-----------------------------------------------------
-
-	define( "SRV_ID_1","3" );
-	# Your server #1 ID (Rust-Servers.Info)
-	define( "SRV_1_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
-	# Your server #1 description
-
-//-----------------------------------------------------
-// Server #2
-//-----------------------------------------------------
-
-	define( "SRV_ID_2","2" );
-	# Your server #2 ID (Rust-Servers.Info)
-	define( "SRV_2_DESC" , "This is short server description. Vanilla, Cool admins, etc." );
 	# Your server #2 description
 
 // Extra servers

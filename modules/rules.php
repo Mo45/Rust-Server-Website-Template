@@ -1,5 +1,7 @@
 <section class="section rules text-center" id="rules">
-<h1>Rules</h1>
+<div class="tabs">
+  <div class="spoon is-medium is-primary">Rules</div>
+</div>
 <!-- THIS TEXT IS COPYPASTED FROM MOOSE.GG, perhaps you need to change it! >>> -->
 <h3>VAC/Game Bans</h3>
 <ul class="text-start">
