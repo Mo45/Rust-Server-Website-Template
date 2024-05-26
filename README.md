@@ -17,7 +17,7 @@ See a live demo at https://rswt.mosharust.com/
 
 ![Rust-Server-Website-Template](https://i.imgur.com/Zp8mtVq.png "RSWT WordPress Theme Screenshot #1")
 
-**RSWT WordPress Theme** [demo](http://wp.krasin.pro/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
+**RSWT WordPress Theme** [demo](https://wp.mosharust.com/). Wordpress Theme for your Rust Server Website. Include News, Discord, Steam, Social, Store, Staff, Contact, FAQ and other modules. 
 Fully configurable via WordPress [Dashboard Settings Page](https://i.imgur.com/JEcoLm1.png). You can buy it for $20 on [Boosty](https://boosty.to/krasinkirill/posts/e76b767f-f5b4-475c-8dde-0025e1e96f08).
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15b90cac0063&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
