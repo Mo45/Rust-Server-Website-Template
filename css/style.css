@@ -1,11 +1,32 @@
 /*!
- * Rust-Server-Website-Template v2.3 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
- * Copyright 2017-2019 Kirill Krasin
+ * Rust-Server-Website-Template v2.5 (https://github.com/Mo45/Rust-Server-Website-Template/releases)
+ * Copyright 2017-2024 Kirill Krasin
  * Licensed under MIT (https://github.com/Mo45/Rust-Server-Website-Template/blob/master/LICENSE)
  */
+:root {
+    --color-dark: #06000a;
+    --color-lt-dark: #151413;
+    --color-mid-dark: #0b0b0a;
+    --color-rust: #cd412b;
+    --color-mute: #948c87;
+    --color-online: #198754;
+    --color-offline: #dc3545;
+    --color-lt-blue: #62a7e3;
+    --color-lt-green: #8bc53f;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(6, 0, 10, 1);
+}
+::-webkit-scrollbar{
+    width: 3px;
+    background-color: rgba(6, 0, 10, 1);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-rust);
+}
 body {
     position: relative;
-    background-color: #232323;
+    background-color: var(--color-dark);
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -21,7 +42,6 @@ nav.navbar.bg-dark {
     padding: 1rem;
     color: #fff;
     background-color:rgba(23,23,23,0)!important;
-    ##background-color:#cd412b!important;
 }
 img#rust-marque{
     max-height: 48px;
@@ -58,7 +78,7 @@ img#rust-marque:hover{
 .face-body {
     align-items: center;
     display: flex;
-    background: linear-gradient(rgba(6, 0, 10, 0.5), rgba(6, 0, 10, 0.75), #06000a);
+    background: linear-gradient(rgba(6, 0, 10, 0.5), rgba(6, 0, 10, 0.75), var(--color-dark));
     z-index: 1;
     flex-grow: 1;
     flex-shrink: 0;
@@ -91,7 +111,7 @@ img#rust-marque:hover{
     border-bottom: 1px solid rgba(230,230,232,.1);
 }
 .section > h1 {
-    color:#cd412b;
+    color:var(--color-rust);
     margin-bottom: 1em;
 }
 .tabs {
@@ -108,7 +128,7 @@ img#rust-marque:hover{
     padding: .5rem 1rem;
 }
 .spoon.is-primary {
-    background: #cd412b;
+    background: var(--color-rust);
     color: #fff;
 }
 .spoon {
@@ -137,10 +157,25 @@ div.Online {
     border-bottom: 3px solid #738D45;
 }
 div.Offline {
-    border-bottom: 3px solid #CD412B;
+    border-bottom: 3px solid var(--color-rust);
 }
 div.Offline > img.server-header {
     opacity:.3;
+}
+@keyframes pulse{50%{opacity:.5}}
+.animate-pulse {
+    animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite
+}
+@keyframes spin{to{transform:rotate(1turn)}}
+.animate-spin {
+    animation:spin 1s linear infinite
+}
+img#desc-icon{
+    transform: scale(1);
+    transition: transform .2s ease;
+}
+img#desc-icon:hover{
+    transform: scale(1.1);
 }
 .progress {
     margin-top: 15px;
@@ -152,7 +187,7 @@ div.Offline > img.server-header {
 div.one-server > p {
     border-bottom: 1px solid rgba(230,230,232,.1);
     padding-bottom: 10px;
-    color: #948c87;
+    color: var(--color-mute);
 }
 div.members {
     font-size:3rem;
@@ -171,13 +206,13 @@ span.discord {
     color: #fff;
 }
 div.members#online {
-    color: #62a7e3;
+    color: var(--color-lt-blue);
 }
 div.members#ingame {
-    color: #8bc53f;
+    color: var(--color-lt-green);
 }
 div.members#discord {
-    color: #8bc53f;
+    color: var(--color-lt-green);
     padding-top:10px;
 }
 section.community > div.row {
@@ -192,15 +227,27 @@ div.store {
     padding-top:6rem;
 }
 div.store > h3 {
-    color: #948c87;
+    color: var(--color-mute);
 }
 section.rules,section.store,section.staff,section.community,section.social {
     border-bottom: 1px solid rgba(230,230,232,.1);
 }
+.description {
+    padding: 20px;
+    background-color: var(--color-mid-dark);
+}
+.description-text > h2 {
+    font-size: 1.1rem;
+    color: var(--color-mute);
+}
+.description-text > h3 {
+    font-size: .9rem;
+    color: var(--color-mute);
+}
 section.footer {
     padding-top: 2rem;
     padding-bottom:3rem;
-    background-color:#151413;
+    background-color:var(--color-lt-dark);
 }
 section.footer > div.container > span > a {
     color: #e6e6e8;
@@ -214,11 +261,11 @@ section.footer > div.container > span > a:hover {
 }
 img.rounded-circle.staff {
     max-width:150px;
-    border: 2px solid #cd412b;
+    border: 2px solid var(--color-rust);
 }
 img.rounded-circle.discord-user {
     max-width:50px;
-    border: 2px solid #cd412b;
+    border: 2px solid var(--color-rust);
 }
 h2.discord {
     color:#7289DA;
@@ -231,17 +278,7 @@ p.staff-name {
 p.staff-role {
     margin-top:-1rem;
     font-size:.8rem;
-    color:#cd412b;
-}
-::-webkit-scrollbar-track{
-    background-color: rgba(6, 0, 10, 1);
-}
-::-webkit-scrollbar{
-    width: 3px;
-    background-color: rgba(6, 0, 10, 1);
-}
-::-webkit-scrollbar-thumb{
-    background-color: #cd412b;
+    color:var(--color-rust);
 }
 .fullvideo {
     position: absolute;
@@ -269,7 +306,7 @@ img, embed, object, audio, video {
     -ms-flex-direction: column;
     flex-direction: column;
     pointer-events: auto;
-    background-color: #cd412b;
+    background-color: var(--color-rust);
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: .3rem;
@@ -308,6 +345,12 @@ img, embed, object, audio, video {
   }
   h2 {
     font-size: 1.3rem;
+  }
+  div.description-icon {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(230, 230, 232, .1);
+    order: 6;
   }
   .pricing-price {
     font-size: 1.5rem!important;
@@ -351,7 +394,7 @@ img, embed, object, audio, video {
   max-width: 100%;
 }
 .section > h1, .section > h2 {
-    color: #cd412b;
+    color: var(--color-rust);
     margin-bottom: 1em;
 }
 .pricing-header {
@@ -419,11 +462,19 @@ img, embed, object, audio, video {
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
-a.nav-item.nav-link{color:#fff;border-bottom: 3px solid #fff;}
-a.nav-link{border-bottom: 3px solid #232323;}
+a.nav-link{border-bottom: 3px solid var(--color-dark);}
+a.nav-item.nav-link {
+    color: var(--color-rust);
+}
 a.nav-link:hover {
     color: #fff;
-    border-bottom: 3px solid #cd412b;
+    border-bottom: 3px solid var(--color-rust);
+}
+.nav-tabs .nav-link:hover {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
 }
 a.disabled {
     pointer-events: none;
@@ -431,7 +482,7 @@ a.disabled {
 }
 h3.faq-question {
   text-align: left;
-  border-bottom: 1px solid #cd412b;
+  border-bottom: 1px solid var(--color-rust);
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -440,11 +491,24 @@ p.text-left > a {
   color: #fff;
 }
 p.text-left > a:hover {
-  color: #cd412b;
+  color: var(--color-rust);
   text-decoration: none;
 }
-.small#footer {
-  font-size: 11px;
+#footer {
+  opacity: .5;
+  color: #fff;
+}
+#footer > a {
+    margin-left: 3px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity .2s ease;
+}
+#footer > a:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+  transition: opacity .2s ease;
 }
 .face-title.one {
     font-size: 3rem;
