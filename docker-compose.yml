@@ -9,4 +9,4 @@ services:
       - '.:/rswt-app'
       - '/rswt-app/node_modules'
     ports:
-      - '8188:80'
+      - '80:80'
