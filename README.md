@@ -7,7 +7,7 @@ Website Template for Rust server
 
 If you don't have **VPS/VDS** or self-hosted server buy new one at Digital Ocean, you can use [my link](https://m.do.co/c/15b90cac0063) and get a $200, 60-day credit to try it. Regular 1GB/1CPU 25GB SSD will be enough to start with. Select **Docker on Ubuntu 22.04** image at marketplace while creating your droplet.
 
-![Rust-Server-Website-Template](https://i.imgur.com/MPGxwNfl.png "Rust-Server-Website-Template Vue Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/P54tzgLl.png "Rust-Server-Website-Template Vue Screenshot #2") ![Rust-Server-Website-Template](https://i.imgur.com/MbRSSxBl.png "Rust-Server-Website-Template Vue Screenshot #3")
+![Rust-Server-Website-Template](https://i.imgur.com/MPGxwNfm.png "Rust-Server-Website-Template Vue Screenshot #1") ![Rust-Server-Website-Template](https://i.imgur.com/P54tzgLm.png "Rust-Server-Website-Template Vue Screenshot #2") ![Rust-Server-Website-Template](https://i.imgur.com/MbRSSxBm.png "Rust-Server-Website-Template Vue Screenshot #3")
 
 ## Demo :tv:
 
