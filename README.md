@@ -75,6 +75,12 @@ To do so edit ```src\rswt.vue``` and follow comments:
 
 Don't forget to edit another components, like **FAQ**, **Staff**, **Rules** etc. To do so edit ```components\faqSection.vue```, ```components\rulesSection.vue```, ```components\staffSection.vue```, ```components\storeSection.vue``` by following comments. It's self explanatory basic HTML.
 
+### Run Docker container after your changes
+```
+docker compose up -d --build
+```
+This command will force build and run the container in detached mode, mapping port 80 on your host to port 80 in the container. Your rswt.js app should now be accessible at http://your_vps_ip:80.
+
 ## Copyright :copyright:
 
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
