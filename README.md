@@ -66,3 +66,14 @@ To do so edit ```src\rswt.vue``` and follow comments:
 
         /* Customize your website by edit above */
 ```
+
+Don't forget to edit another components, like **FAQ**, **Staff**, **Rules** etc. To do so edit ```components\faqSection.vue```, ```components\rulesSection.vue```, ```components\staffSection.vue```, ```components\storeSection.vue``` by following comments. It's self explanatory basic HTML.
+
+## Copyright :copyright:
+
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+> - MIT License
+
+This is the reason why you're seeing these notices above. So legally, these notices shouldn't be removed from the works/files in which they're found.
+
+If you really need to remove copyright from your project page, Send me at least a tip [Boosty](https://boosty.to/krasinkirill/donate).

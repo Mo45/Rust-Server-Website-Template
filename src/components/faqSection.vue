@@ -1,4 +1,7 @@
 <template>
+
+<!-- EDIT HERE -->
+
 <div class="container">
 <section class="section rules text-center" id="faq">
 <div class="tabs">
@@ -18,6 +21,9 @@
 <!-- SINGLE QUESTION & ANSWER /END -->
 </section>
 </div>
+
+<!-- EDIT HERE -->
+
 </template>
 
 

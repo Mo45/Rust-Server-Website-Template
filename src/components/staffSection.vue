@@ -1,4 +1,7 @@
 <template>
+
+<!-- EDIT HERE -->
+
 <div class="container">
 <section class="section staff text-center" id="staff">
 <div class="tabs">
@@ -33,6 +36,9 @@
 </div><!-- row -->
 </section>
 </div>
+
+<!-- EDIT HERE -->
+
 </template>
 
 

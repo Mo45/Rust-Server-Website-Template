@@ -1,4 +1,7 @@
 <template>
+
+<!-- EDIT HERE -->
+
 <div class="container">
 <section class="section rules text-center" id="rules">
 <div class="tabs">
@@ -27,6 +30,9 @@
 <!-- <<< THIS TEXT IS COPYPASTED FROM MOOSE.GG, perhaps you need to change it! -->
 </section>
 </div>
+
+<!-- EDIT HERE -->
+
 </template>
 
 

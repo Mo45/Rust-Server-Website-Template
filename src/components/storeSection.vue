@@ -1,4 +1,7 @@
 <template>
+
+<!-- EDIT HERE -->
+
 <div class="container">
 <section class="section store text-center" id="store">
 <div class="tabs">
@@ -17,6 +20,9 @@
 </div>
 </section>
 </div>
+
+<!-- EDIT HERE -->
+
 </template>
 
 
