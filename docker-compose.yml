@@ -1,0 +1,12 @@
+services:
+
+  rswt-vue:
+    container_name: rswt-vue
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/rswt-app'
+      - '/rswt-app/node_modules'
+    ports:
+      - '8188:80'
