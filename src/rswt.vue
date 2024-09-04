@@ -26,6 +26,7 @@
 </template>
 
 <script>
+import Config from "./config.json";
 
 import NavBar from './components/NavBar.vue'
 import mainIndex from './components/mainIndex.vue'
@@ -47,38 +48,36 @@ import getServer_two from './components/getServer.vue'
 export default {
   name: 'RSWT',
   created(){
-        document.title = this.shortTitle
+        document.title = Config.TITLE_SHORT
     },
   data() { 
     return {
+        shortTitle: Config.TITLE_SHORT,
+        fullTitle: Config.TITLE_FULL,
+        projectSlogan: Config.PRJ_SLOGAN,
+        discordServerID: Config.DISCORD_ID,
 
-        /* Customize your website by edit below */
+        serverOneApiKey: Config.S1_API_KEY,
+        serverOneBannerImage: Config.S1_BANNER,
+        serverOneDescription: Config.S1_DESC,
 
-        shortTitle: "RSWT",
-        fullTitle: "Mega Awesome Servers",
-        projectSlogan: "Most Amazing Rust Servers",
+        serverTwoApiKey: Config.S2_API_KEY,
+        serverTwoBannerImage: Config.S2_BANNER,
+        serverTwoDescription: Config.S2_DESC,
 
-        discordServerID: "450335953488314368",
-
-        serverOneApiKey: "fkil0HQ6V8Blf3PBBM4rwkEkl2dgG5DwrhN",
-        serverOneBannerImage: "mosharust.png",
-        serverOneDescription: "The original experience",
-
-        serverTwoApiKey: "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
-        serverTwoBannerImage: "mosharust.png",
-        serverTwoDescription: "Another cool description",
+        /* Add more servers by edit & uncomment below */
 
         /** If you need more that two servers add them like this:
-        * serverThreeApiKey: "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
-        * serverThreeBannerImage: "mosharust.png",
-        * serverThreeDescription: "Another cool description",
+        * serverThreeApiKey: Config.S3_API_KEY,
+        * serverThreeBannerImage: Config.S3_BANNER,
+        * serverThreeDescription: Config.S3_DESC,
         *
-        * serverFourApiKey: "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
-        * serverFourBannerImage: "mosharust.png",
-        * serverFourDescription: "Another cool description",
+        * serverFourApiKey: Config.S4_API_KEY,
+        * serverFourBannerImage: Config.S4_BANNER,
+        * serverFourDescription: Config.S4_DESC,
         */
 
-        /* Customize your website by edit above */
+        /* Add more servers by edit & uncomment above */
 
     };
   },

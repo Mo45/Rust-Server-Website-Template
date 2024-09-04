@@ -1,12 +1,19 @@
 services:
 
-  rswt-vue:
-    container_name: rswt-vue
+  rswt:
+    container_name: ${APP_NAME}
+    hostname: ${APP_NAME}
+    image: kirillkrasin/rswt-vue:${APP_VER}
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - '.:/rswt-app'
-      - '/rswt-app/node_modules'
+      - '.:/app'
+      - '/app/node_modules'
     ports:
-      - '80:80'
+      - '${APP_PORT}:80'
+    restart: always
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '3'

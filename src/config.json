@@ -1,0 +1,22 @@
+{
+  "TITLE_SHORT": "RSWT Vue App",
+  "TITLE_FULL": "Mega Awesome Servers",
+  "PRJ_SLOGAN": "Most Amazing Rust Servers",
+  "DISCORD_ID": "450335953488314368",
+
+  "S1_API_KEY": "fkil0HQ6V8Blf3PBBM4rwkEkl2dgG5DwrhN",
+  "S1_BANNER": "mosharust.png",
+  "S1_DESC": "The original experience",
+
+  "S2_API_KEY": "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
+  "S2_BANNER": "mosharust.png",
+  "S2_DESC": "Another cool description",
+
+  "S3_API_KEY": "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
+  "S3_BANNER": "mosharust.png",
+  "S3_DESC": "Another cool description",
+
+  "S4_API_KEY": "67OJLXAxoOBLxopKBSvWsl9TvDXqQUHYucP",
+  "S4_BANNER": "mosharust.png",
+  "S4_DESC": "Another cool description"
+}

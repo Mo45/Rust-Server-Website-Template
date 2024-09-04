@@ -1,6 +1,6 @@
 {
   "name": "rswt-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rust Website Template Vue",
   "author": "Kirill Krasin <kirillkrasin@gmail.com>",
   "private": true,
